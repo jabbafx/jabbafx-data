@@ -2,8 +2,10 @@
 # ════════════════════════════════════════════════════════════════════════════
 # JabbaFX Module 1C weekly COT update — runs from VPS cron.
 #
-# Fires Friday 22:00 UTC (5pm ET winter / 6pm ET summer — buffer after
-# CFTC's 3:30pm ET weekly release covering Tuesday-close positions).
+# Fires Friday 22:30 UTC (30 min after the insider cron at 22:00 UTC to
+# avoid simultaneous push race against the same GitHub repo). The CFTC
+# weekly release lands at 3:30pm ET, so 22:30 UTC has at least 2h buffer
+# in both winter (5:30pm ET) and summer (6:30pm ET).
 #
 # Pipeline: fetch_cot (×8) → parse_cot → copy to clone → commit → push
 # Runtime parsers at   /root/jabbafx-data-pipeline/parsers/
