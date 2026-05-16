@@ -1,0 +1,222 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-16T00:00:00Z",
+  "funds": [
+    {
+      "cik": "0001631613",
+      "name": "Whale Rock Capital",
+      "manager": "Alex Sacerdote",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": 10000000000,
+      "active": true,
+      "notes": "Concentrated tech growth"
+    },
+    {
+      "cik": "0001569049",
+      "name": "Light Street Capital",
+      "manager": "Glen Kacher",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": 800000000,
+      "active": true,
+      "notes": "Tech long/short"
+    },
+    {
+      "cik": "0001135730",
+      "name": "Coatue Management",
+      "manager": "Philippe Laffont",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Tech-focused crossover fund"
+    },
+    {
+      "cik": "0001061165",
+      "name": "Lone Pine Capital",
+      "manager": "Mala Gaonkar / Steve Mandel",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Long/short tech growth"
+    },
+    {
+      "cik": "0001167483",
+      "name": "Tiger Global Management",
+      "manager": "Chase Coleman",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Growth crossover, public + private"
+    },
+    {
+      "cik": "0001103804",
+      "name": "Viking Global Investors",
+      "manager": "O. Andreas Halvorsen",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Multi-strategy long/short"
+    },
+    {
+      "cik": "0001758730",
+      "name": "D1 Capital Partners",
+      "manager": "Dan Sundheim",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Long/short crossover"
+    },
+    {
+      "cik": "0001036855",
+      "name": "Maverick Capital",
+      "manager": "Lee Ainslie",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Long/short equity"
+    },
+    {
+      "cik": "0002045724",
+      "name": "Situational Awareness LP",
+      "manager": "Leopold Aschenbrenner",
+      "cluster": "ai_growth",
+      "estimated_aum_usd": 5500000000,
+      "active": true,
+      "notes": "AGI-thesis concentrated long"
+    },
+    {
+      "cik": "0001112520",
+      "name": "Akre Capital Management",
+      "manager": "Chuck Akre's firm",
+      "cluster": "quality_concentrated",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "High-quality compounders"
+    },
+    {
+      "cik": "0001336528",
+      "name": "Pershing Square Capital",
+      "manager": "Bill Ackman",
+      "cluster": "quality_concentrated",
+      "estimated_aum_usd": 15000000000,
+      "active": true,
+      "notes": "Activist concentrated long"
+    },
+    {
+      "cik": "0001517382",
+      "name": "Altimeter Capital",
+      "manager": "Brad Gerstner",
+      "cluster": "quality_concentrated",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Tech crossover"
+    },
+    {
+      "cik": "0001067983",
+      "name": "Berkshire Hathaway",
+      "manager": "Warren Buffett",
+      "cluster": "quality_concentrated",
+      "estimated_aum_usd": 300000000000,
+      "active": true,
+      "notes": "Buffett's flagship"
+    },
+    {
+      "cik": "0001040273",
+      "name": "Third Point",
+      "manager": "Dan Loeb",
+      "cluster": "quality_concentrated",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Event-driven activist"
+    },
+    {
+      "cik": "0001418814",
+      "name": "ValueAct Capital",
+      "manager": "Mason Morfit",
+      "cluster": "quality_concentrated",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Constructive activist"
+    },
+    {
+      "cik": "0001061768",
+      "name": "Baupost Group",
+      "manager": "Seth Klarman",
+      "cluster": "quality_concentrated",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Value-oriented multi-strategy"
+    },
+    {
+      "cik": "0001536411",
+      "name": "Duquesne Family Office",
+      "manager": "Stan Druckenmiller",
+      "cluster": "macro_hard_assets",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Druckenmiller macro family office"
+    },
+    {
+      "cik": "0001637344",
+      "name": "Crescat Capital",
+      "manager": "Kevin Smith",
+      "cluster": "macro_hard_assets",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Macro long/short hard assets"
+    },
+    {
+      "cik": "0001656456",
+      "name": "Appaloosa Management",
+      "manager": "David Tepper",
+      "cluster": "macro_hard_assets",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Tepper distressed/macro"
+    },
+    {
+      "cik": "0001079114",
+      "name": "Greenlight Capital",
+      "manager": "David Einhorn",
+      "cluster": "macro_hard_assets",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Long/short value"
+    },
+    {
+      "cik": "0001791786",
+      "name": "Elliott Management",
+      "manager": "Paul Singer",
+      "cluster": "macro_hard_assets",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Activist multi-strategy"
+    },
+    {
+      "cik": "0001863154",
+      "name": "Goehring & Rozencwajg Associates",
+      "manager": "Adam Rozencwajg / Leigh Goehring",
+      "cluster": "commodity_energy",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Natural resources value"
+    },
+    {
+      "cik": "0001056823",
+      "name": "Horizon Kinetics Asset Management",
+      "manager": "Murray Stahl",
+      "cluster": "commodity_energy",
+      "estimated_aum_usd": null,
+      "active": true,
+      "notes": "Hard assets focus; current active filer (older entity 0001519418 deprecated)"
+    },
+    {
+      "cik": "0001088875",
+      "name": "Baillie Gifford & Co",
+      "manager": "Edinburgh partnership",
+      "cluster": "growth_innovation",
+      "estimated_aum_usd": 50000000000,
+      "active": true,
+      "notes": "Long-term growth; consolidated 13F covers 4 affiliates"
+    }
+  ]
+}
