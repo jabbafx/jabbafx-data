@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "last_updated": "2026-05-16T15:10:00Z",
+  "version": "1.2",
+  "last_updated": "2026-05-16T17:00:00Z",
   "funds": [
     {
       "cik": "0001387322",
@@ -179,7 +179,9 @@
       "manager": "David Einhorn",
       "cluster": "macro_hard_assets",
       "estimated_aum_usd": null,
-      "active": true,
+      "active": false,
+      "inactive_since": "2023-12-31",
+      "inactive_reason": "No 13F-HR since 2023-Q4 and zero 13F-NT ever filed (verified 2026-05-16). Likely dropped below the $100M reporting threshold. Revisit if a successor CIK is identified.",
       "notes": "Long/short value"
     },
     {
