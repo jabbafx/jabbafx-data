@@ -1,7 +1,7 @@
 {
   "quarter": "2026-Q1",
   "filing_period_end": "2026-03-31",
-  "data_computed": "2026-05-16T15:05:53Z",
+  "data_computed": "2026-05-16T15:54:05Z",
   "signal_strength_thresholds": {
     "high": ">=6 funds",
     "medium": "4-5 funds",
