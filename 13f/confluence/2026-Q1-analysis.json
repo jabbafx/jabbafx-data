@@ -1,0 +1,1381 @@
+{
+  "quarter": "2026-Q1",
+  "filing_period_end": "2026-03-31",
+  "data_computed": "2026-05-16T15:05:53Z",
+  "signal_strength_thresholds": {
+    "high": ">=6 funds",
+    "medium": "4-5 funds",
+    "low": "3 funds"
+  },
+  "summary": {
+    "total_funds_filed": 21,
+    "total_positions_aggregate": 2352,
+    "new_multi_fund_positions": 0,
+    "exited_multi_fund_positions": 0
+  },
+  "high_confluence": [
+    {
+      "ticker": "AMZN",
+      "cusip": "023135106",
+      "name": "Amazon.Com",
+      "funds_holding": 16,
+      "cluster_breakdown": {
+        "ai_growth": 10,
+        "quality_concentrated": 5,
+        "macro_hard_assets": 3,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 16524152553,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "TSM",
+      "cusip": "874039100",
+      "name": "TAIWAN SEMICONDUCTOR MANUFAC",
+      "funds_holding": 13,
+      "cluster_breakdown": {
+        "ai_growth": 17,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 2,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 9520447365,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "GOOGL",
+      "cusip": "02079K305",
+      "name": "ALPHABET INC",
+      "funds_holding": 12,
+      "cluster_breakdown": {
+        "ai_growth": 13,
+        "quality_concentrated": 6,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 22176216565,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "NVDA",
+      "cusip": "67066G104",
+      "name": "NVIDIA",
+      "funds_holding": 11,
+      "cluster_breakdown": {
+        "ai_growth": 8,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 13281194642,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "META",
+      "cusip": "30303M102",
+      "name": "META PLATFORMS INC",
+      "funds_holding": 11,
+      "cluster_breakdown": {
+        "ai_growth": 9,
+        "quality_concentrated": 4,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 10086572320,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "MSFT",
+      "cusip": "594918104",
+      "name": "MICROSOFT CORP",
+      "funds_holding": 10,
+      "cluster_breakdown": {
+        "ai_growth": 5,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 6989411065,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "AVGO",
+      "cusip": "11135F101",
+      "name": "BROADCOM INC",
+      "funds_holding": 10,
+      "cluster_breakdown": {
+        "ai_growth": 13,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 2
+      },
+      "total_value": 3518131117,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "V",
+      "cusip": "92826C839",
+      "name": "VISA INC",
+      "funds_holding": 8,
+      "cluster_breakdown": {
+        "ai_growth": 9,
+        "quality_concentrated": 3,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 3810561687,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "GOOG",
+      "cusip": "02079K107",
+      "name": "ALPHABET INC",
+      "funds_holding": 8,
+      "cluster_breakdown": {
+        "ai_growth": 8,
+        "quality_concentrated": 3,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 3528920787,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": null,
+      "cusip": "L8681T102",
+      "name": "Spotify Technology SA",
+      "funds_holding": 7,
+      "cluster_breakdown": {
+        "ai_growth": 10,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 5
+      },
+      "total_value": 5765166273,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": null,
+      "cusip": "N07059210",
+      "name": "ASML HLDG NV",
+      "funds_holding": 7,
+      "cluster_breakdown": {
+        "ai_growth": 11,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 1966722473,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": null,
+      "cusip": "G6683N103",
+      "name": "Nu Holdings Ltd.",
+      "funds_holding": 6,
+      "cluster_breakdown": {
+        "ai_growth": 5,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 5363987934,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "APP",
+      "cusip": "03831W108",
+      "name": "AppLovin",
+      "funds_holding": 6,
+      "cluster_breakdown": {
+        "ai_growth": 6,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 4704313036,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "COF",
+      "cusip": "14040H105",
+      "name": "CAPITAL ONE FINL CORP",
+      "funds_holding": 6,
+      "cluster_breakdown": {
+        "ai_growth": 4,
+        "quality_concentrated": 4,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 2469121456,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "CVNA",
+      "cusip": "146869102",
+      "name": "CARVANA CO",
+      "funds_holding": 6,
+      "cluster_breakdown": {
+        "ai_growth": 11,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 2257879047,
+      "qoq_funds_added": 0,
+      "signal_strength": "high"
+    },
+    {
+      "ticker": "AAPL",
+      "cusip": "037833100",
+      "name": "APPLE INC",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 12,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 58957953866,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "MELI",
+      "cusip": "58733R102",
+      "name": "MercadoLibre",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 5
+      },
+      "total_value": 6521171362,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "SE",
+      "cusip": "81141R100",
+      "name": "Sea Ltd ADR",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 5
+      },
+      "total_value": 5379266333,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "BN",
+      "cusip": "11271J107",
+      "name": "BROOKFIELD CORP",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 3890025917,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "UBER",
+      "cusip": "90353T100",
+      "name": "UBER TECHNOLOGIES INC",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 3458994442,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "LRCX",
+      "cusip": "512807306",
+      "name": "LAM RESEARCH CORP",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 9,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 3281672526,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "CPNG",
+      "cusip": "22266T109",
+      "name": "Coupang",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 3220603751,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "NFLX",
+      "cusip": "64110L106",
+      "name": "Netflix Inc",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 8,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 3006860395,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "RDDT",
+      "cusip": "75734B100",
+      "name": "Reddit",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 4,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 2371155261,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "DIS",
+      "cusip": "254687106",
+      "name": "DISNEY WALT CO",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 1548426623,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "CLS",
+      "cusip": "15101Q207",
+      "name": "CELESTICA INC",
+      "funds_holding": 5,
+      "cluster_breakdown": {
+        "ai_growth": 4,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 1059007942,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "SU",
+      "cusip": "867224107",
+      "name": "SUNCOR ENERGY INC NEW",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 2,
+        "growth_innovation": 0
+      },
+      "total_value": 3608967703,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "MA",
+      "cusip": "57636Q104",
+      "name": "MASTERCARD INCORPORATED",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 1860700635,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "RBLX",
+      "cusip": "771049103",
+      "name": "Roblox",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 1742971285,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "TMO",
+      "cusip": "883556102",
+      "name": "THERMO FISHER SCIENTIFIC INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 1519766031,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "MDLN",
+      "cusip": "58507V107",
+      "name": "MEDLINE INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 1512777501,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "DASH",
+      "cusip": "25809K105",
+      "name": "Doordash Inc",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 8,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 1389857470,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "SHW",
+      "cusip": "824348106",
+      "name": "SHERWIN WILLIAMS CO",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 4,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 1357670933,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "MCD",
+      "cusip": "580135101",
+      "name": "MCDONALDS CORP",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 1256185520,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "GLW",
+      "cusip": "219350105",
+      "name": "CORNING INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 1022437021,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "DHR",
+      "cusip": "235851102",
+      "name": "DANAHER CORP DEL",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 692644065,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "CHYM",
+      "cusip": "16935C109",
+      "name": "CHIME FINL INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 5,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 1
+      },
+      "total_value": 447836247,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "ARM",
+      "cusip": "042068205",
+      "name": "ARM HOLDINGS PLC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 436658194,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "EQT",
+      "cusip": "26884L109",
+      "name": "Eqt Corp",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 2,
+        "growth_innovation": 4
+      },
+      "total_value": 327380987,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "LYV",
+      "cusip": "538034109",
+      "name": "LIVE NATION ENTERTAINMENT IN",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 292994892,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "AMD",
+      "cusip": "007903107",
+      "name": "ADVANCED MICRO DEVICES INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 241356269,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "ADI",
+      "cusip": "032654105",
+      "name": "ANALOG DEVICES INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 232666733,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "INTC",
+      "cusip": "458140100",
+      "name": "INTEL CORP",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 1
+      },
+      "total_value": 222682413,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "UNH",
+      "cusip": "91324P102",
+      "name": "UNITEDHEALTH GROUP INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 3
+      },
+      "total_value": 125170606,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "LITE",
+      "cusip": "55024U109",
+      "name": "LUMENTUM HLDGS INC",
+      "funds_holding": 4,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 104589345,
+      "qoq_funds_added": 0,
+      "signal_strength": "medium"
+    },
+    {
+      "ticker": "KO",
+      "cusip": "191216100",
+      "name": "COCA COLA CO",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 10,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 30571756178,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "MCO",
+      "cusip": "615369105",
+      "name": "MOODYS CORP",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 4,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 11639218928,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "TFPM",
+      "cusip": "89679M104",
+      "name": "TRIPLE FLAG PRECIOUS METAL",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 2,
+        "growth_innovation": 0
+      },
+      "total_value": 4641487602,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "GEV",
+      "cusip": "36828A101",
+      "name": "GE VERNOVA INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 10,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 3095993867,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "SIRI",
+      "cusip": "829933100",
+      "name": "SIRIUSXM HOLDINGS INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 2881873283,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "AMAT",
+      "cusip": "038222105",
+      "name": "APPLIED MATLS INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 9,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 2657432630,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "QSR",
+      "cusip": "76131D103",
+      "name": "RESTAURANT BRANDS INTL INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 2304292194,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": null,
+      "cusip": "G29183103",
+      "name": "EATON CORP PLC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 9,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 1919493640,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "NYT",
+      "cusip": "650111107",
+      "name": "NEW YORK TIMES CO MTN BE",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 1512656467,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "TSLA",
+      "cusip": "88160R101",
+      "name": "TESLA INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 1432927847,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "NTRA",
+      "cusip": "632307104",
+      "name": "Natera Inc",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 8,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 1355348865,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "LLYVK",
+      "cusip": "530909308",
+      "name": "LIBERTY LIVE HOLDINGS INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 5,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 1331837850,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "CSGP",
+      "cusip": "22160N109",
+      "name": "COSTAR GROUP INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 1027023926,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "KKR",
+      "cusip": "48251W104",
+      "name": "KKR & CO L P DEL",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 2,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 941380414,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "MTZ",
+      "cusip": "576323109",
+      "name": "MASTEC INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 4,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 783323325,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "SNDK",
+      "cusip": "80004C200",
+      "name": "SANDISK CORP",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 2,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 710939980,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "MU",
+      "cusip": "595112103",
+      "name": "MICRON TECHNOLOGY INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 2,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 626466729,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "LLYVA",
+      "cusip": "530909100",
+      "name": "LIBERTY LIVE HOLDINGS INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 5,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 620032392,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "Z",
+      "cusip": "98954M200",
+      "name": "ZILLOW GROUP INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 375489651,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "MDB",
+      "cusip": "60937P106",
+      "name": "MONGODB INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 1
+      },
+      "total_value": 374444006,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "PM",
+      "cusip": "718172109",
+      "name": "Philip Morris Intl",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 368904459,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": null,
+      "cusip": "M6191J100",
+      "name": "JFROG LTD",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 4
+      },
+      "total_value": 357195305,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "RTX",
+      "cusip": "75513E101",
+      "name": "RTX CORPORATION",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 331553241,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "MKSI",
+      "cusip": "55306N104",
+      "name": "MKS INC.",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 3,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 330070128,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": null,
+      "cusip": "N62509109",
+      "name": "NEWAMSTERDAM PHARMA COMPANY",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 302817908,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "PEP",
+      "cusip": "713448108",
+      "name": "PEPSICO INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 295692970,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "NRG",
+      "cusip": "629377508",
+      "name": "NRG ENERGY INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 255220942,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "BE",
+      "cusip": "093712107",
+      "name": "BLOOM ENERGY CORP",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 249400917,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "FCX",
+      "cusip": "35671D857",
+      "name": "Freeport-Mcmoran Copper",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 2,
+        "growth_innovation": 4
+      },
+      "total_value": 247151326,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "WPM",
+      "cusip": "962879102",
+      "name": "WHEATON PRECIOUS METALS CORP",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 244697762,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "QCOM",
+      "cusip": "747525103",
+      "name": "QUALCOMM INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 243579256,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "COHR",
+      "cusip": "19247G107",
+      "name": "COHERENT CORP",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 0
+      },
+      "total_value": 243526448,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": null,
+      "cusip": "G25508105",
+      "name": "CRH PLC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 1,
+        "commodity_energy": 0,
+        "growth_innovation": 2
+      },
+      "total_value": 239465670,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": null,
+      "cusip": "G54950103",
+      "name": "LINDE PLC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 1,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 232367853,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "AJG",
+      "cusip": "363576109",
+      "name": "GALLAGHER ARTHUR J & CO",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 4
+      },
+      "total_value": 186870421,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "STZ",
+      "cusip": "21036P108",
+      "name": "CONSTELLATION BRANDS INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 0
+      },
+      "total_value": 95990400,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "NVO",
+      "cusip": "670100205",
+      "name": "NOVO-NORDISK A S",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 1,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 1
+      },
+      "total_value": 77011574,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "ZG",
+      "cusip": "98954M101",
+      "name": "ZILLOW GROUP INC",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 1
+      },
+      "total_value": 57853370,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "BKNG",
+      "cusip": "09857L108",
+      "name": "Booking Holdings Inc",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 2,
+        "quality_concentrated": 0,
+        "macro_hard_assets": 0,
+        "commodity_energy": 0,
+        "growth_innovation": 2
+      },
+      "total_value": 23325173,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    },
+    {
+      "ticker": "AMT",
+      "cusip": "03027X100",
+      "name": "AMERICAN TOWER CORP NEW",
+      "funds_holding": 3,
+      "cluster_breakdown": {
+        "ai_growth": 0,
+        "quality_concentrated": 1,
+        "macro_hard_assets": 0,
+        "commodity_energy": 1,
+        "growth_innovation": 1
+      },
+      "total_value": 17636641,
+      "qoq_funds_added": 0,
+      "signal_strength": "low"
+    }
+  ],
+  "new_entries": [],
+  "exits": [],
+  "cluster_rotations": []
+}
