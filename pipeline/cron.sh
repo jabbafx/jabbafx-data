@@ -83,12 +83,7 @@ run_step() {
   echo "[$(date -u +%FT%TZ)] step=$name ok" >>"$LOG"
 }
 
-# ── 5. Pipeline ───────────────────────────────────────────────────────────
-run_step fetch_edgar.py        --quarter "$QUARTER" $FORCE_FLAG
-run_step parse_13f.py          --quarter "$QUARTER" $FORCE_FLAG
-run_step compute_confluence.py --quarter "$QUARTER" $FORCE_FLAG
-
-# ── 6. Sync VC clone ──────────────────────────────────────────────────────
+# ── 5. Sync VC clone (pull first, so funds.json reflects latest operator edits) ──
 cd "$CLONE"
 echo "[$(date -u +%FT%TZ)] git pull --rebase" >>"$LOG"
 if ! git pull --rebase --autostash >>"$LOG" 2>&1; then
@@ -96,7 +91,18 @@ if ! git pull --rebase --autostash >>"$LOG" 2>&1; then
   exit 1
 fi
 
-# ── 7. Copy outputs ───────────────────────────────────────────────────────
+# Sync funds.json from clone into the parser's expected path. The clone is
+# the canonical source of truth for the fund list; the parser reads from
+# $BASE/data/staged_funds.json on every run.
+cp "$CLONE/13f/funds.json" "$BASE/data/staged_funds.json"
+echo "[$(date -u +%FT%TZ)] synced funds.json from clone (version $(jq -r .version "$CLONE/13f/funds.json" 2>/dev/null || echo '?'))" >>"$LOG"
+
+# ── 6. Pipeline ───────────────────────────────────────────────────────────
+run_step fetch_edgar.py        --quarter "$QUARTER" $FORCE_FLAG
+run_step parse_13f.py          --quarter "$QUARTER" $FORCE_FLAG
+run_step compute_confluence.py --quarter "$QUARTER" $FORCE_FLAG
+
+# ── 7. Copy outputs into clone ────────────────────────────────────────────
 mkdir -p "$CLONE/13f/positions" "$CLONE/13f/confluence"
 cp "$BASE/data/output/${QUARTER}.json"          "$CLONE/13f/positions/${QUARTER}.json"
 cp "$BASE/data/output/${QUARTER}-analysis.json" "$CLONE/13f/confluence/${QUARTER}-analysis.json"
