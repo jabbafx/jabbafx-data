@@ -3,6 +3,7 @@
   "spot": 299.846,
   "data_timestamp": "2026-05-16 09:30:23",
   "iv30": 23.456,
+  "fallback_iv_used": 0.23456,
   "total_gex_dollars": 128816955921.0,
   "total_call_gex_dollars": 165626113468.0,
   "total_put_gex_dollars": 36809157546.0,
@@ -11,13 +12,15 @@
   "pc_oi_ratio": 0.609,
   "zero_gamma_flip": 279.02,
   "zero_gamma_flip_method": "sign_change",
+  "zero_gamma_flip_bs": 251.71,
+  "bs_contracts_in_flip_calc": 1233,
   "call_wall_strike": 300.0,
   "call_wall_gex": 30179070880.0,
   "put_wall_strike": 255.0,
   "put_wall_gex": -1121792705.0,
   "regime": "net_long_gamma",
   "contracts_used": 1100,
-  "contracts_skipped_zero_gamma_or_oi": 694,
+  "contracts_skipped_zero_gamma_or_oi": 561,
   "contracts_skipped_dte_oor": 1980,
   "strikes_count": 89,
   "expirations_count": 14,
@@ -779,5 +782,5 @@
       "gex": 3223650435.0
     }
   ],
-  "data_computed": "2026-05-16T18:49:23Z"
+  "data_computed": "2026-05-16T18:54:51Z"
 }

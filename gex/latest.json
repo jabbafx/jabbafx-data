@@ -1,5 +1,5 @@
 {
-  "data_computed": "2026-05-16T18:49:34Z",
+  "data_computed": "2026-05-16T18:55:03Z",
   "underlyings_count": 10,
   "underlyings": [
     {
@@ -9,10 +9,12 @@
       "total_gex_dollars": -321842897004.0,
       "regime": "net_short_gamma",
       "zero_gamma_flip": null,
+      "zero_gamma_flip_bs": 742.89,
       "call_wall_strike": 745.0,
       "put_wall_strike": 730.0,
       "pc_oi_ratio": 2.493,
-      "contracts_used": 5720
+      "contracts_used": 5720,
+      "bs_contracts_in_flip_calc": 6065
     },
     {
       "symbol": "QQQ",
@@ -21,10 +23,12 @@
       "total_gex_dollars": -54445290959.0,
       "regime": "net_short_gamma",
       "zero_gamma_flip": null,
+      "zero_gamma_flip_bs": 710.89,
       "call_wall_strike": 725.0,
       "put_wall_strike": 650.0,
       "pc_oi_ratio": 1.638,
-      "contracts_used": 5470
+      "contracts_used": 5470,
+      "bs_contracts_in_flip_calc": 5877
     },
     {
       "symbol": "IWM",
@@ -33,10 +37,12 @@
       "total_gex_dollars": -153648685471.0,
       "regime": "net_short_gamma",
       "zero_gamma_flip": null,
+      "zero_gamma_flip_bs": 288.53,
       "call_wall_strike": 285.0,
       "put_wall_strike": 275.0,
       "pc_oi_ratio": 2.508,
-      "contracts_used": 2403
+      "contracts_used": 2403,
+      "bs_contracts_in_flip_calc": 2466
     },
     {
       "symbol": "NVDA",
@@ -45,10 +51,12 @@
       "total_gex_dollars": 106854899515.0,
       "regime": "net_long_gamma",
       "zero_gamma_flip": 207.85,
+      "zero_gamma_flip_bs": null,
       "call_wall_strike": 220.0,
       "put_wall_strike": 175.0,
       "pc_oi_ratio": 0.719,
-      "contracts_used": 1560
+      "contracts_used": 1560,
+      "bs_contracts_in_flip_calc": 1845
     },
     {
       "symbol": "TSLA",
@@ -57,10 +65,12 @@
       "total_gex_dollars": 32711295981.0,
       "regime": "net_long_gamma",
       "zero_gamma_flip": 453.58,
+      "zero_gamma_flip_bs": 396.95,
       "call_wall_strike": 450.0,
       "put_wall_strike": 350.0,
       "pc_oi_ratio": 0.68,
-      "contracts_used": 2398
+      "contracts_used": 2398,
+      "bs_contracts_in_flip_calc": 2755
     },
     {
       "symbol": "AAPL",
@@ -69,10 +79,12 @@
       "total_gex_dollars": 128816955921.0,
       "regime": "net_long_gamma",
       "zero_gamma_flip": 279.02,
+      "zero_gamma_flip_bs": 251.71,
       "call_wall_strike": 300.0,
       "put_wall_strike": 255.0,
       "pc_oi_ratio": 0.609,
-      "contracts_used": 1100
+      "contracts_used": 1100,
+      "bs_contracts_in_flip_calc": 1233
     },
     {
       "symbol": "MSFT",
@@ -81,10 +93,12 @@
       "total_gex_dollars": 67220239061.0,
       "regime": "net_long_gamma",
       "zero_gamma_flip": 424.61,
+      "zero_gamma_flip_bs": 393.64,
       "call_wall_strike": 450.0,
       "put_wall_strike": 400.0,
       "pc_oi_ratio": 0.571,
-      "contracts_used": 1367
+      "contracts_used": 1367,
+      "bs_contracts_in_flip_calc": 1411
     },
     {
       "symbol": "AMD",
@@ -93,10 +107,12 @@
       "total_gex_dollars": 12983312598.0,
       "regime": "net_long_gamma",
       "zero_gamma_flip": 318.39,
+      "zero_gamma_flip_bs": null,
       "call_wall_strike": 450.0,
       "put_wall_strike": 405.0,
       "pc_oi_ratio": 0.863,
-      "contracts_used": 1767
+      "contracts_used": 1767,
+      "bs_contracts_in_flip_calc": 2168
     },
     {
       "symbol": "META",
@@ -105,10 +121,12 @@
       "total_gex_dollars": 26816935613.0,
       "regime": "net_long_gamma",
       "zero_gamma_flip": 688.3,
+      "zero_gamma_flip_bs": 595.61,
       "call_wall_strike": 720.0,
       "put_wall_strike": 600.0,
       "pc_oi_ratio": 0.566,
-      "contracts_used": 2228
+      "contracts_used": 2228,
+      "bs_contracts_in_flip_calc": 2561
     },
     {
       "symbol": "GOOG",
@@ -117,10 +135,12 @@
       "total_gex_dollars": 23719996745.0,
       "regime": "net_long_gamma",
       "zero_gamma_flip": 388.21,
+      "zero_gamma_flip_bs": 326.05,
       "call_wall_strike": 400.0,
       "put_wall_strike": 370.0,
       "pc_oi_ratio": 0.854,
-      "contracts_used": 1222
+      "contracts_used": 1222,
+      "bs_contracts_in_flip_calc": 1340
     }
   ]
 }
