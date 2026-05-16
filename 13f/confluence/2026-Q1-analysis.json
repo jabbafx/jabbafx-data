@@ -1,7 +1,7 @@
 {
   "quarter": "2026-Q1",
   "filing_period_end": "2026-03-31",
-  "data_computed": "2026-05-16T15:54:05Z",
+  "data_computed": "2026-05-16T17:19:45Z",
   "signal_strength_thresholds": {
     "high": ">=6 funds",
     "medium": "4-5 funds",
@@ -20,11 +20,11 @@
       "name": "Amazon.Com",
       "funds_holding": 16,
       "cluster_breakdown": {
-        "ai_growth": 10,
+        "ai_growth": 7,
         "quality_concentrated": 5,
-        "macro_hard_assets": 3,
+        "macro_hard_assets": 2,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 16524152553,
       "qoq_funds_added": 0,
@@ -36,11 +36,11 @@
       "name": "TAIWAN SEMICONDUCTOR MANUFAC",
       "funds_holding": 13,
       "cluster_breakdown": {
-        "ai_growth": 17,
+        "ai_growth": 8,
         "quality_concentrated": 2,
         "macro_hard_assets": 2,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 9520447365,
       "qoq_funds_added": 0,
@@ -52,11 +52,11 @@
       "name": "ALPHABET INC",
       "funds_holding": 12,
       "cluster_breakdown": {
-        "ai_growth": 13,
-        "quality_concentrated": 6,
+        "ai_growth": 7,
+        "quality_concentrated": 3,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 22176216565,
       "qoq_funds_added": 0,
@@ -68,11 +68,11 @@
       "name": "NVIDIA",
       "funds_holding": 11,
       "cluster_breakdown": {
-        "ai_growth": 8,
+        "ai_growth": 6,
         "quality_concentrated": 2,
         "macro_hard_assets": 1,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 13281194642,
       "qoq_funds_added": 0,
@@ -84,11 +84,11 @@
       "name": "META PLATFORMS INC",
       "funds_holding": 11,
       "cluster_breakdown": {
-        "ai_growth": 9,
+        "ai_growth": 4,
         "quality_concentrated": 4,
         "macro_hard_assets": 1,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 10086572320,
       "qoq_funds_added": 0,
@@ -104,7 +104,7 @@
         "quality_concentrated": 2,
         "macro_hard_assets": 1,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 6989411065,
       "qoq_funds_added": 0,
@@ -116,11 +116,11 @@
       "name": "BROADCOM INC",
       "funds_holding": 10,
       "cluster_breakdown": {
-        "ai_growth": 13,
+        "ai_growth": 5,
         "quality_concentrated": 2,
         "macro_hard_assets": 1,
         "commodity_energy": 1,
-        "growth_innovation": 2
+        "growth_innovation": 1
       },
       "total_value": 3518131117,
       "qoq_funds_added": 0,
@@ -132,7 +132,7 @@
       "name": "VISA INC",
       "funds_holding": 8,
       "cluster_breakdown": {
-        "ai_growth": 9,
+        "ai_growth": 4,
         "quality_concentrated": 3,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
@@ -148,11 +148,11 @@
       "name": "ALPHABET INC",
       "funds_holding": 8,
       "cluster_breakdown": {
-        "ai_growth": 8,
+        "ai_growth": 2,
         "quality_concentrated": 3,
         "macro_hard_assets": 1,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 3528920787,
       "qoq_funds_added": 0,
@@ -164,11 +164,11 @@
       "name": "Spotify Technology SA",
       "funds_holding": 7,
       "cluster_breakdown": {
-        "ai_growth": 10,
+        "ai_growth": 5,
         "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 5
+        "growth_innovation": 1
       },
       "total_value": 5765166273,
       "qoq_funds_added": 0,
@@ -180,7 +180,7 @@
       "name": "ASML HLDG NV",
       "funds_holding": 7,
       "cluster_breakdown": {
-        "ai_growth": 11,
+        "ai_growth": 5,
         "quality_concentrated": 1,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
@@ -200,7 +200,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 5363987934,
       "qoq_funds_added": 0,
@@ -212,11 +212,11 @@
       "name": "AppLovin",
       "funds_holding": 6,
       "cluster_breakdown": {
-        "ai_growth": 6,
+        "ai_growth": 5,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 4704313036,
       "qoq_funds_added": 0,
@@ -229,7 +229,7 @@
       "funds_holding": 6,
       "cluster_breakdown": {
         "ai_growth": 4,
-        "quality_concentrated": 4,
+        "quality_concentrated": 2,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
         "growth_innovation": 0
@@ -244,7 +244,7 @@
       "name": "CARVANA CO",
       "funds_holding": 6,
       "cluster_breakdown": {
-        "ai_growth": 11,
+        "ai_growth": 6,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
@@ -261,10 +261,10 @@
       "funds_holding": 5,
       "cluster_breakdown": {
         "ai_growth": 2,
-        "quality_concentrated": 12,
+        "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 58957953866,
       "qoq_funds_added": 0,
@@ -280,7 +280,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
-        "growth_innovation": 5
+        "growth_innovation": 1
       },
       "total_value": 6521171362,
       "qoq_funds_added": 0,
@@ -296,7 +296,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
-        "growth_innovation": 5
+        "growth_innovation": 1
       },
       "total_value": 5379266333,
       "qoq_funds_added": 0,
@@ -312,7 +312,7 @@
         "quality_concentrated": 2,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 3890025917,
       "qoq_funds_added": 0,
@@ -328,7 +328,7 @@
         "quality_concentrated": 2,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 3458994442,
       "qoq_funds_added": 0,
@@ -340,7 +340,7 @@
       "name": "LAM RESEARCH CORP",
       "funds_holding": 5,
       "cluster_breakdown": {
-        "ai_growth": 9,
+        "ai_growth": 3,
         "quality_concentrated": 1,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
@@ -360,7 +360,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 3220603751,
       "qoq_funds_added": 0,
@@ -372,11 +372,11 @@
       "name": "Netflix Inc",
       "funds_holding": 5,
       "cluster_breakdown": {
-        "ai_growth": 8,
+        "ai_growth": 3,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 3006860395,
       "qoq_funds_added": 0,
@@ -392,7 +392,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 2371155261,
       "qoq_funds_added": 0,
@@ -456,7 +456,7 @@
         "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1860700635,
       "qoq_funds_added": 0,
@@ -472,7 +472,7 @@
         "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1742971285,
       "qoq_funds_added": 0,
@@ -488,7 +488,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1519766031,
       "qoq_funds_added": 0,
@@ -504,7 +504,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1512777501,
       "qoq_funds_added": 0,
@@ -516,11 +516,11 @@
       "name": "Doordash Inc",
       "funds_holding": 4,
       "cluster_breakdown": {
-        "ai_growth": 8,
+        "ai_growth": 3,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1389857470,
       "qoq_funds_added": 0,
@@ -552,7 +552,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1256185520,
       "qoq_funds_added": 0,
@@ -596,7 +596,7 @@
       "name": "CHIME FINL INC",
       "funds_holding": 4,
       "cluster_breakdown": {
-        "ai_growth": 5,
+        "ai_growth": 3,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
@@ -616,7 +616,7 @@
         "quality_concentrated": 1,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 436658194,
       "qoq_funds_added": 0,
@@ -632,7 +632,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 2,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 327380987,
       "qoq_funds_added": 0,
@@ -680,7 +680,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 232666733,
       "qoq_funds_added": 0,
@@ -712,7 +712,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 1,
         "commodity_energy": 1,
-        "growth_innovation": 3
+        "growth_innovation": 1
       },
       "total_value": 125170606,
       "qoq_funds_added": 0,
@@ -741,10 +741,10 @@
       "funds_holding": 3,
       "cluster_breakdown": {
         "ai_growth": 1,
-        "quality_concentrated": 10,
+        "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 30571756178,
       "qoq_funds_added": 0,
@@ -757,10 +757,10 @@
       "funds_holding": 3,
       "cluster_breakdown": {
         "ai_growth": 0,
-        "quality_concentrated": 4,
+        "quality_concentrated": 2,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 11639218928,
       "qoq_funds_added": 0,
@@ -788,7 +788,7 @@
       "name": "GE VERNOVA INC",
       "funds_holding": 3,
       "cluster_breakdown": {
-        "ai_growth": 10,
+        "ai_growth": 2,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
@@ -805,7 +805,7 @@
       "funds_holding": 3,
       "cluster_breakdown": {
         "ai_growth": 1,
-        "quality_concentrated": 2,
+        "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
         "growth_innovation": 0
@@ -820,7 +820,7 @@
       "name": "APPLIED MATLS INC",
       "funds_holding": 3,
       "cluster_breakdown": {
-        "ai_growth": 9,
+        "ai_growth": 3,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
@@ -852,11 +852,11 @@
       "name": "EATON CORP PLC",
       "funds_holding": 3,
       "cluster_breakdown": {
-        "ai_growth": 9,
+        "ai_growth": 1,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1919493640,
       "qoq_funds_added": 0,
@@ -869,10 +869,10 @@
       "funds_holding": 3,
       "cluster_breakdown": {
         "ai_growth": 1,
-        "quality_concentrated": 2,
+        "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1512656467,
       "qoq_funds_added": 0,
@@ -884,11 +884,11 @@
       "name": "TESLA INC",
       "funds_holding": 3,
       "cluster_breakdown": {
-        "ai_growth": 3,
+        "ai_growth": 2,
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1432927847,
       "qoq_funds_added": 0,
@@ -900,7 +900,7 @@
       "name": "Natera Inc",
       "funds_holding": 3,
       "cluster_breakdown": {
-        "ai_growth": 8,
+        "ai_growth": 2,
         "quality_concentrated": 0,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
@@ -917,7 +917,7 @@
       "funds_holding": 3,
       "cluster_breakdown": {
         "ai_growth": 0,
-        "quality_concentrated": 5,
+        "quality_concentrated": 2,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
         "growth_innovation": 0
@@ -936,7 +936,7 @@
         "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 1027023926,
       "qoq_funds_added": 0,
@@ -964,7 +964,7 @@
       "name": "MASTEC INC",
       "funds_holding": 3,
       "cluster_breakdown": {
-        "ai_growth": 4,
+        "ai_growth": 2,
         "quality_concentrated": 1,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
@@ -1013,7 +1013,7 @@
       "funds_holding": 3,
       "cluster_breakdown": {
         "ai_growth": 0,
-        "quality_concentrated": 5,
+        "quality_concentrated": 2,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
         "growth_innovation": 0
@@ -1032,7 +1032,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 375489651,
       "qoq_funds_added": 0,
@@ -1064,7 +1064,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 368904459,
       "qoq_funds_added": 0,
@@ -1080,7 +1080,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 357195305,
       "qoq_funds_added": 0,
@@ -1144,7 +1144,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 1,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 295692970,
       "qoq_funds_added": 0,
@@ -1192,7 +1192,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 2,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 247151326,
       "qoq_funds_added": 0,
@@ -1256,7 +1256,7 @@
         "quality_concentrated": 1,
         "macro_hard_assets": 1,
         "commodity_energy": 0,
-        "growth_innovation": 2
+        "growth_innovation": 1
       },
       "total_value": 239465670,
       "qoq_funds_added": 0,
@@ -1288,7 +1288,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 1,
-        "growth_innovation": 4
+        "growth_innovation": 1
       },
       "total_value": 186870421,
       "qoq_funds_added": 0,
@@ -1352,7 +1352,7 @@
         "quality_concentrated": 0,
         "macro_hard_assets": 0,
         "commodity_energy": 0,
-        "growth_innovation": 2
+        "growth_innovation": 1
       },
       "total_value": 23325173,
       "qoq_funds_added": 0,
