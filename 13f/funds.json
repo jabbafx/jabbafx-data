@@ -1,15 +1,15 @@
 {
-  "version": "1.0",
-  "last_updated": "2026-05-16T00:00:00Z",
+  "version": "1.1",
+  "last_updated": "2026-05-16T13:20:00Z",
   "funds": [
     {
-      "cik": "0001631613",
+      "cik": "0001387322",
       "name": "Whale Rock Capital",
       "manager": "Alex Sacerdote",
       "cluster": "ai_growth",
       "estimated_aum_usd": 10000000000,
       "active": true,
-      "notes": "Concentrated tech growth"
+      "notes": "Concentrated tech growth (briefing CIK 0001631613 was wrong entity \"Spring Fertility Management LLC\"; corrected 2026-05-16)"
     },
     {
       "cik": "0001569049",
@@ -57,22 +57,22 @@
       "notes": "Multi-strategy long/short"
     },
     {
-      "cik": "0001758730",
+      "cik": "0001747057",
       "name": "D1 Capital Partners",
       "manager": "Dan Sundheim",
       "cluster": "ai_growth",
       "estimated_aum_usd": null,
       "active": true,
-      "notes": "Long/short crossover"
+      "notes": "Long/short crossover (briefing CIK 0001758730 was Tradeweb Markets; corrected 2026-05-16)"
     },
     {
-      "cik": "0001036855",
+      "cik": "0000934639",
       "name": "Maverick Capital",
       "manager": "Lee Ainslie",
       "cluster": "ai_growth",
       "estimated_aum_usd": null,
       "active": true,
-      "notes": "Long/short equity"
+      "notes": "Long/short equity (briefing CIK 0001036855 was an individual filer; corrected 2026-05-16)"
     },
     {
       "cik": "0002045724",
@@ -102,13 +102,13 @@
       "notes": "Activist concentrated long"
     },
     {
-      "cik": "0001517382",
+      "cik": "0001541617",
       "name": "Altimeter Capital",
       "manager": "Brad Gerstner",
       "cluster": "quality_concentrated",
       "estimated_aum_usd": null,
       "active": true,
-      "notes": "Tech crossover"
+      "notes": "Tech crossover (briefing CIK 0001517382 was unrelated entity; corrected 2026-05-16)"
     },
     {
       "cik": "0001067983",
@@ -161,8 +161,8 @@
       "manager": "Kevin Smith",
       "cluster": "macro_hard_assets",
       "estimated_aum_usd": null,
-      "active": true,
-      "notes": "Macro long/short hard assets"
+      "active": false,
+      "notes": "Macro long/short hard assets. Marked inactive 2026-05-16: no 13F-HR filer for this entity in EDGAR (likely sub-$100M US-listed equity exposure, primary book is futures/options). Briefing CIK 0001637344 = unrelated 'Bel-Ray Company'. Kept in list per Section 8.8 lockdown but skipped by fetcher."
     },
     {
       "cik": "0001656456",
