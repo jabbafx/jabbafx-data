@@ -107,11 +107,17 @@ def group_by_cusip(positions_payload: dict, clusters: dict) -> dict:
                     "_top_value": 0,
                 }
             entry = grouped[cusip]
+            entry["total_value"] += pos["value"]  # OK to accumulate across multi-record lots
+            # cluster_breakdown counts FUNDS holding this CUSIP, not position records.
+            # Bug pre-2026-05-16: incremented per record, inflating counts when a fund
+            # reported the same CUSIP across multiple ownership/share-class records
+            # (e.g. Berkshire's 12 AAPL records). Fix: only increment on first sight of
+            # (fund, cusip) — guarded by funds_holding set membership.
+            if cik not in entry["funds_holding"]:
+                cluster = clusters.get(cik)
+                if cluster in entry["cluster_breakdown"]:
+                    entry["cluster_breakdown"][cluster] += 1
             entry["funds_holding"].add(cik)
-            entry["total_value"] += pos["value"]
-            cluster = clusters.get(cik)
-            if cluster in entry["cluster_breakdown"]:
-                entry["cluster_breakdown"][cluster] += 1
             # Tie-break ticker/name to the position with the highest value
             if pos["value"] > entry["_top_value"]:
                 entry["_top_value"] = pos["value"]
