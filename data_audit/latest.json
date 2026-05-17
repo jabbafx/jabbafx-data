@@ -1,0 +1,163 @@
+{
+  "run_utc": "2026-05-17T14:42:53.589684Z",
+  "duration_s": 8.7,
+  "total": 16,
+  "pass_count": 16,
+  "delta_count": 0,
+  "fail_count": 0,
+  "modules": [
+    {
+      "status": "ok",
+      "detail": "M5A Net Liquidity (WALCL $M) = 6728502.0 on 2026-05-13 (4d old)",
+      "value": 6728502.0,
+      "as_of": "2026-05-13",
+      "id": "liquidity",
+      "label": "M5A Net Liquidity (WALCL $M)",
+      "source_type": "fred",
+      "source_ref": "WALCL"
+    },
+    {
+      "status": "ok",
+      "detail": "M3B US 10Y Yield (%) = 4.47 on 2026-05-14 (3d old)",
+      "value": 4.47,
+      "as_of": "2026-05-14",
+      "id": "yields",
+      "label": "M3B US 10Y Yield (%)",
+      "source_type": "fred",
+      "source_ref": "DGS10"
+    },
+    {
+      "status": "ok",
+      "detail": "M5C GDPNow (% real GDP) = 3.9912 on 2026-04-01 (46d old)",
+      "value": 3.9912,
+      "as_of": "2026-04-01",
+      "id": "growth",
+      "label": "M5C GDPNow (% real GDP)",
+      "source_type": "fred",
+      "source_ref": "GDPNOW"
+    },
+    {
+      "status": "ok",
+      "detail": "M5C CFNAI = -0.2 on 2026-03-01 (77d old)",
+      "value": -0.2,
+      "as_of": "2026-03-01",
+      "id": "growth_cfnai",
+      "label": "M5C CFNAI",
+      "source_type": "fred",
+      "source_ref": "CFNAI"
+    },
+    {
+      "status": "ok",
+      "detail": "M4C CPI (level) = 332.407 on 2026-04-01 (46d old)",
+      "value": 332.407,
+      "as_of": "2026-04-01",
+      "id": "events_cpi",
+      "label": "M4C CPI (level)",
+      "source_type": "fred",
+      "source_ref": "CPIAUCSL"
+    },
+    {
+      "status": "ok",
+      "detail": "M4C Unemployment Rate (%) = 4.3 on 2026-04-01 (46d old)",
+      "value": 4.3,
+      "as_of": "2026-04-01",
+      "id": "events_unrate",
+      "label": "M4C Unemployment Rate (%)",
+      "source_type": "fred",
+      "source_ref": "UNRATE"
+    },
+    {
+      "status": "ok",
+      "detail": "M5G German Bund 10Y (%) = 2.9963157895 on 2026-04-01 (46d old)",
+      "value": 2.9963157895,
+      "as_of": "2026-04-01",
+      "id": "intl_de10",
+      "label": "M5G German Bund 10Y (%)",
+      "source_type": "fred",
+      "source_ref": "IRLTLT01DEM156N"
+    },
+    {
+      "status": "ok",
+      "detail": "M5A NFCI (financial conditions) = -0.524 on 2026-05-08 (9d old)",
+      "value": -0.524,
+      "as_of": "2026-05-08",
+      "id": "liq_nfci",
+      "label": "M5A NFCI (financial conditions)",
+      "source_type": "fred",
+      "source_ref": "NFCI"
+    },
+    {
+      "status": "ok",
+      "detail": "M5A HY OAS (%) = 2.76 on 2026-05-14 (3d old)",
+      "value": 2.76,
+      "as_of": "2026-05-14",
+      "id": "liq_hyoas",
+      "label": "M5A HY OAS (%)",
+      "source_type": "fred",
+      "source_ref": "BAMLH0A0HYM2"
+    },
+    {
+      "status": "ok",
+      "detail": "M1A 13F Holdings 7KB, 0 records, 22.9h old",
+      "value": 0,
+      "id": "institutional",
+      "label": "M1A 13F Holdings",
+      "source_type": "github",
+      "source_ref": "13f/funds.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M1B Insider Transactions 6KB, 0 records, 22.0h old",
+      "value": 0,
+      "id": "insider",
+      "label": "M1B Insider Transactions",
+      "source_type": "github",
+      "source_ref": "insider/recent.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M1C COT Report 3KB, 0 records, 20.2h old",
+      "value": 0,
+      "id": "cot",
+      "label": "M1C COT Report",
+      "source_type": "github",
+      "source_ref": "cot/latest.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M2B Options Anomalies 1411KB, 2183 records, 19.4h old",
+      "value": 2183,
+      "id": "anomalies",
+      "label": "M2B Options Anomalies",
+      "source_type": "github",
+      "source_ref": "anomalies/recent.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M5H Historical Archive 649KB, 2316 records, 1.3h old",
+      "value": 2316,
+      "id": "history",
+      "label": "M5H Historical Archive",
+      "source_type": "github",
+      "source_ref": "historical_state/archive.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M3A VIX Term Structure 5KB, 0 records, 17.7h old",
+      "value": 0,
+      "id": "vix_struct",
+      "label": "M3A VIX Term Structure",
+      "source_type": "github",
+      "source_ref": "vix_structure/recent.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M2A GEX 4KB, 0 records, 19.7h old",
+      "value": 0,
+      "id": "gex",
+      "label": "M2A GEX",
+      "source_type": "github",
+      "source_ref": "gex/latest.json"
+    }
+  ]
+}
