@@ -1,12 +1,12 @@
 {
-  "data_computed": "2026-05-16T16:35:33Z",
+  "data_computed": "2026-05-18T22:00:19Z",
   "window_days": 30,
   "source_quarter": "2026-Q1",
   "tickers_scanned": 30,
   "issuers_resolved": 30,
   "tickers_unresolved": 0,
   "unresolved_tickers": [],
-  "total_form4_filings": 215,
+  "total_form4_filings": 218,
   "interesting_count": 10,
   "filter_rule": "reporting_owner in {director, officer} AND transaction_code in {P, S} AND (code==P OR NOT aff_10b5_one) AND value >= $250,000",
   "interesting": [
