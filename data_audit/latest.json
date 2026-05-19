@@ -1,6 +1,6 @@
 {
-  "run_utc": "2026-05-17T14:42:53.589684Z",
-  "duration_s": 8.7,
+  "run_utc": "2026-05-19T06:00:34.499518Z",
+  "duration_s": 29.5,
   "total": 16,
   "pass_count": 16,
   "delta_count": 0,
@@ -8,7 +8,7 @@
   "modules": [
     {
       "status": "ok",
-      "detail": "M5A Net Liquidity (WALCL $M) = 6728502.0 on 2026-05-13 (4d old)",
+      "detail": "M5A Net Liquidity (WALCL $M) = 6728502.0 on 2026-05-13 (6d old)",
       "value": 6728502.0,
       "as_of": "2026-05-13",
       "id": "liquidity",
@@ -18,9 +18,9 @@
     },
     {
       "status": "ok",
-      "detail": "M3B US 10Y Yield (%) = 4.47 on 2026-05-14 (3d old)",
-      "value": 4.47,
-      "as_of": "2026-05-14",
+      "detail": "M3B US 10Y Yield (%) = 4.59 on 2026-05-15 (4d old)",
+      "value": 4.59,
+      "as_of": "2026-05-15",
       "id": "yields",
       "label": "M3B US 10Y Yield (%)",
       "source_type": "fred",
@@ -28,7 +28,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5C GDPNow (% real GDP) = 3.9912 on 2026-04-01 (46d old)",
+      "detail": "M5C GDPNow (% real GDP) = 3.9912 on 2026-04-01 (48d old)",
       "value": 3.9912,
       "as_of": "2026-04-01",
       "id": "growth",
@@ -38,7 +38,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5C CFNAI = -0.2 on 2026-03-01 (77d old)",
+      "detail": "M5C CFNAI = -0.2 on 2026-03-01 (79d old)",
       "value": -0.2,
       "as_of": "2026-03-01",
       "id": "growth_cfnai",
@@ -48,7 +48,7 @@
     },
     {
       "status": "ok",
-      "detail": "M4C CPI (level) = 332.407 on 2026-04-01 (46d old)",
+      "detail": "M4C CPI (level) = 332.407 on 2026-04-01 (48d old)",
       "value": 332.407,
       "as_of": "2026-04-01",
       "id": "events_cpi",
@@ -58,7 +58,7 @@
     },
     {
       "status": "ok",
-      "detail": "M4C Unemployment Rate (%) = 4.3 on 2026-04-01 (46d old)",
+      "detail": "M4C Unemployment Rate (%) = 4.3 on 2026-04-01 (48d old)",
       "value": 4.3,
       "as_of": "2026-04-01",
       "id": "events_unrate",
@@ -68,7 +68,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5G German Bund 10Y (%) = 2.9963157895 on 2026-04-01 (46d old)",
+      "detail": "M5G German Bund 10Y (%) = 2.9963157895 on 2026-04-01 (48d old)",
       "value": 2.9963157895,
       "as_of": "2026-04-01",
       "id": "intl_de10",
@@ -78,7 +78,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5A NFCI (financial conditions) = -0.524 on 2026-05-08 (9d old)",
+      "detail": "M5A NFCI (financial conditions) = -0.524 on 2026-05-08 (11d old)",
       "value": -0.524,
       "as_of": "2026-05-08",
       "id": "liq_nfci",
@@ -88,9 +88,9 @@
     },
     {
       "status": "ok",
-      "detail": "M5A HY OAS (%) = 2.76 on 2026-05-14 (3d old)",
-      "value": 2.76,
-      "as_of": "2026-05-14",
+      "detail": "M5A HY OAS (%) = 2.8 on 2026-05-15 (4d old)",
+      "value": 2.8,
+      "as_of": "2026-05-15",
       "id": "liq_hyoas",
       "label": "M5A HY OAS (%)",
       "source_type": "fred",
@@ -98,7 +98,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1A 13F Holdings 7KB, 0 records, 22.9h old",
+      "detail": "M1A 13F Holdings 7KB, 0 records, 62.2h old",
       "value": 0,
       "id": "institutional",
       "label": "M1A 13F Holdings",
@@ -107,7 +107,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1B Insider Transactions 6KB, 0 records, 22.0h old",
+      "detail": "M1B Insider Transactions 6KB, 0 records, 8.0h old",
       "value": 0,
       "id": "insider",
       "label": "M1B Insider Transactions",
@@ -116,7 +116,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1C COT Report 3KB, 0 records, 20.2h old",
+      "detail": "M1C COT Report 3KB, 0 records, 59.4h old",
       "value": 0,
       "id": "cot",
       "label": "M1C COT Report",
@@ -125,8 +125,8 @@
     },
     {
       "status": "ok",
-      "detail": "M2B Options Anomalies 1411KB, 2183 records, 19.4h old",
-      "value": 2183,
+      "detail": "M2B Options Anomalies 1584KB, 2455 records, 8.5h old",
+      "value": 2455,
       "id": "anomalies",
       "label": "M2B Options Anomalies",
       "source_type": "github",
@@ -134,7 +134,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5H Historical Archive 649KB, 2316 records, 1.3h old",
+      "detail": "M5H Historical Archive 649KB, 2316 records, 40.6h old",
       "value": 2316,
       "id": "history",
       "label": "M5H Historical Archive",
@@ -143,7 +143,7 @@
     },
     {
       "status": "ok",
-      "detail": "M3A VIX Term Structure 5KB, 0 records, 17.7h old",
+      "detail": "M3A VIX Term Structure 5KB, 0 records, 6.5h old",
       "value": 0,
       "id": "vix_struct",
       "label": "M3A VIX Term Structure",
@@ -152,7 +152,7 @@
     },
     {
       "status": "ok",
-      "detail": "M2A GEX 4KB, 0 records, 19.7h old",
+      "detail": "M2A GEX 4KB, 0 records, 9.0h old",
       "value": 0,
       "id": "gex",
       "label": "M2A GEX",
