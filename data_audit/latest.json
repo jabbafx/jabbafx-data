@@ -1,8 +1,8 @@
 {
-  "run_utc": "2026-05-19T06:00:34.499518Z",
-  "duration_s": 29.5,
-  "total": 16,
-  "pass_count": 16,
+  "run_utc": "2026-05-19T13:03:19.814547Z",
+  "duration_s": 9.9,
+  "total": 18,
+  "pass_count": 18,
   "delta_count": 0,
   "fail_count": 0,
   "modules": [
@@ -98,7 +98,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1A 13F Holdings 7KB, 0 records, 62.2h old",
+      "detail": "M1A 13F Holdings 7KB, 0 records, 69.2h old",
       "value": 0,
       "id": "institutional",
       "label": "M1A 13F Holdings",
@@ -107,7 +107,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1B Insider Transactions 6KB, 0 records, 8.0h old",
+      "detail": "M1B Insider Transactions 6KB, 0 records, 15.0h old",
       "value": 0,
       "id": "insider",
       "label": "M1B Insider Transactions",
@@ -116,7 +116,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1C COT Report 3KB, 0 records, 59.4h old",
+      "detail": "M1C COT Report 3KB, 0 records, 66.5h old",
       "value": 0,
       "id": "cot",
       "label": "M1C COT Report",
@@ -125,7 +125,7 @@
     },
     {
       "status": "ok",
-      "detail": "M2B Options Anomalies 1584KB, 2455 records, 8.5h old",
+      "detail": "M2B Options Anomalies 1584KB, 2455 records, 15.5h old",
       "value": 2455,
       "id": "anomalies",
       "label": "M2B Options Anomalies",
@@ -134,7 +134,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5H Historical Archive 649KB, 2316 records, 40.6h old",
+      "detail": "M5H Historical Archive 649KB, 2316 records, 47.7h old",
       "value": 2316,
       "id": "history",
       "label": "M5H Historical Archive",
@@ -143,7 +143,7 @@
     },
     {
       "status": "ok",
-      "detail": "M3A VIX Term Structure 5KB, 0 records, 6.5h old",
+      "detail": "M3A VIX Term Structure 5KB, 0 records, 13.6h old",
       "value": 0,
       "id": "vix_struct",
       "label": "M3A VIX Term Structure",
@@ -152,12 +152,30 @@
     },
     {
       "status": "ok",
-      "detail": "M2A GEX 4KB, 0 records, 9.0h old",
+      "detail": "M2A GEX 4KB, 0 records, 16.0h old",
       "value": 0,
       "id": "gex",
       "label": "M2A GEX",
       "source_type": "github",
       "source_ref": "gex/latest.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M6C NAAIM Exposure Index 1KB, 0 records, 0.4h old",
+      "value": 0,
+      "id": "naaim",
+      "label": "M6C NAAIM Exposure Index",
+      "source_type": "github",
+      "source_ref": "sentiment_naaim/latest.json"
+    },
+    {
+      "status": "ok",
+      "detail": "M6E SEC 8-K Live Feed 0KB, 1 records, 0.4h old",
+      "value": 1,
+      "id": "sec_8k",
+      "label": "M6E SEC 8-K Live Feed",
+      "source_type": "github",
+      "source_ref": "sec_8k/recent.json"
     }
   ]
 }
