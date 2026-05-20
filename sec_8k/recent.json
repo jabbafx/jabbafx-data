@@ -1,6 +1,19 @@
 {
-  "fetched_utc": "2026-05-19T22:15:02.478273Z",
+  "fetched_utc": "2026-05-20T12:15:02.568559Z",
   "filings": [
+    {
+      "title": "8-K - Philip Morris International Inc. (0001413329) (Filer)",
+      "filer": "Philip Morris International Inc.",
+      "ticker": "PM",
+      "cik": "0001413329",
+      "updated": "2026-05-20T07:05:00-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026036721/0001628280-26-036721-index.htm",
+      "items": [
+        "5.02",
+        "7.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - HOME DEPOT, INC. (0000354950) (Filer)",
       "filer": "HOME DEPOT, INC.",
