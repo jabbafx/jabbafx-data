@@ -25,6 +25,8 @@ EXIT=$?
 cd "$REPO_DIR"
 git add sentiment_naaim/latest.json 2>>"$LOG" || true
 if ! git diff --cached --quiet; then
+    python3 "$PIPELINE_DIR/build_manifest.py" >> "$LOG" 2>&1 || true
+    git add data_audit/manifest.json 2>>"$LOG" || true
     git commit -m "naaim: weekly exposure update" --no-verify >> "$LOG" 2>&1
     git pull --rebase origin main >> "$LOG" 2>&1 || true
     git push origin main >> "$LOG" 2>&1 || echo "[$(date -u +%FT%TZ)] push failed (non-fatal)" >> "$LOG"

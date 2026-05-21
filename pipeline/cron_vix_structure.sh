@@ -82,6 +82,8 @@ git add vix_structure/recent.json
 if git diff --cached --quiet; then
   echo "[$(date -u +%FT%TZ)] no changes to vix_structure/recent.json" >>"$LOG"
 else
+  python3 "$CLONE/pipeline/build_manifest.py" >>"$LOG" 2>&1 || true
+  git add data_audit/manifest.json 2>>"$LOG" || true
   git commit -m "VIX structure daily: $(date -u +%FT%TZ)" >>"$LOG" 2>&1
   if [ "$NO_PUSH" -eq 0 ]; then
     if ! git push >>"$LOG" 2>&1; then

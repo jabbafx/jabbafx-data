@@ -27,7 +27,8 @@ EXIT=$?
 
 # Commit + push the result
 cd "$REPO_DIR"
-git add data_audit/latest.json data_audit/history.json 2>>"$LOG"
+python3 "$PIPELINE_DIR/build_manifest.py" >> "$LOG" 2>&1 || true
+git add data_audit/latest.json data_audit/history.json data_audit/manifest.json 2>>"$LOG"
 if ! git diff --cached --quiet; then
     git commit -m "audit: nightly data health check" --no-verify >> "$LOG" 2>&1
     git push origin main >> "$LOG" 2>&1 || echo "[$(date -u +%FT%TZ)] push failed (non-fatal)" >> "$LOG"

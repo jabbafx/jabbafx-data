@@ -1,0 +1,196 @@
+{
+  "generated_at": "2026-05-21T23:40:48.997028Z",
+  "base_url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main",
+  "fresh_count": 10,
+  "stale_count": 0,
+  "missing_count": 0,
+  "feeds": [
+    {
+      "id": "sec_8k",
+      "label": "SEC 8-K Live Feed",
+      "path": "sec_8k/recent.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/sec_8k/recent.json",
+      "tabs": [
+        "watchlist"
+      ],
+      "expected_max_age_hours": 2,
+      "size_bytes": 3191,
+      "last_updated": "2026-05-21T22:15:02.567815Z",
+      "age_hours": 1.43,
+      "is_fresh": true,
+      "record_count": 8,
+      "status": "ok"
+    },
+    {
+      "id": "anomalies",
+      "label": "Options Anomalies",
+      "path": "anomalies/recent.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/anomalies/recent.json",
+      "tabs": [
+        "options"
+      ],
+      "expected_max_age_hours": 30,
+      "size_bytes": 1424974,
+      "last_updated": "2026-05-21T21:30:28Z",
+      "age_hours": 2.17,
+      "is_fresh": true,
+      "record_count": 2152,
+      "status": "ok"
+    },
+    {
+      "id": "gex",
+      "label": "GEX (Gamma Exposure)",
+      "path": "gex/latest.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/gex/latest.json",
+      "tabs": [
+        "options"
+      ],
+      "expected_max_age_hours": 36,
+      "size_bytes": 3981,
+      "last_updated": "2026-05-21T21:00:41Z",
+      "age_hours": 2.67,
+      "is_fresh": true,
+      "record_count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "options_metrics",
+      "label": "Options Metrics (PCR/IV)",
+      "path": "options_metrics/recent.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/options_metrics/recent.json",
+      "tabs": [
+        "options"
+      ],
+      "expected_max_age_hours": 30,
+      "size_bytes": 11905,
+      "last_updated": "2026-05-21T23:00:25+00:00",
+      "age_hours": 0.67,
+      "is_fresh": true,
+      "record_count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "vix_struct",
+      "label": "VIX Term Structure",
+      "path": "vix_structure/recent.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/vix_structure/recent.json",
+      "tabs": [
+        "options",
+        "macro"
+      ],
+      "expected_max_age_hours": 30,
+      "size_bytes": 4684,
+      "last_updated": "2026-05-20T23:30:10+00:00",
+      "age_hours": 24.18,
+      "is_fresh": true,
+      "status": "ok"
+    },
+    {
+      "id": "history",
+      "label": "Historical State Archive",
+      "path": "historical_state/archive.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/historical_state/archive.json",
+      "tabs": [
+        "macro"
+      ],
+      "expected_max_age_hours": 192,
+      "size_bytes": 664661,
+      "last_updated": "2026-05-17T13:21:50+00:00",
+      "age_hours": 106.32,
+      "is_fresh": true,
+      "record_count": 2316,
+      "status": "ok"
+    },
+    {
+      "id": "institutional",
+      "label": "13F Holdings (Funds)",
+      "path": "13f/funds.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/13f/funds.json",
+      "tabs": [
+        "institutional"
+      ],
+      "expected_max_age_hours": 2400,
+      "size_bytes": 6921,
+      "last_updated": "2026-05-16T17:00:00Z",
+      "age_hours": 126.68,
+      "is_fresh": true,
+      "record_count": 24,
+      "status": "ok"
+    },
+    {
+      "id": "insider",
+      "label": "Form 4 Insider Transactions",
+      "path": "insider/recent.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/insider/recent.json",
+      "tabs": [
+        "insider"
+      ],
+      "expected_max_age_hours": 30,
+      "size_bytes": 8339,
+      "last_updated": "2026-05-21T22:00:36Z",
+      "age_hours": 1.67,
+      "is_fresh": true,
+      "record_count": 13,
+      "status": "ok"
+    },
+    {
+      "id": "cot",
+      "label": "COT Report (Futures)",
+      "path": "cot/latest.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/cot/latest.json",
+      "tabs": [
+        "commodities"
+      ],
+      "expected_max_age_hours": 192,
+      "size_bytes": 3255,
+      "last_updated": "2026-05-16T18:33:14Z",
+      "age_hours": 125.13,
+      "is_fresh": true,
+      "record_count": 8,
+      "status": "ok"
+    },
+    {
+      "id": "naaim",
+      "label": "NAAIM Exposure Index",
+      "path": "sentiment_naaim/latest.json",
+      "url": "https://raw.githubusercontent.com/jabbafx/jabbafx-data/main/sentiment_naaim/latest.json",
+      "tabs": [
+        "sentiment"
+      ],
+      "expected_max_age_hours": 192,
+      "size_bytes": 889,
+      "last_updated": "2026-05-20T22:00:02.865508Z",
+      "age_hours": 25.68,
+      "is_fresh": true,
+      "record_count": 10,
+      "status": "ok"
+    }
+  ],
+  "tabs": {
+    "watchlist": [
+      "sec_8k"
+    ],
+    "options": [
+      "anomalies",
+      "gex",
+      "options_metrics",
+      "vix_struct"
+    ],
+    "macro": [
+      "vix_struct",
+      "history"
+    ],
+    "institutional": [
+      "institutional"
+    ],
+    "insider": [
+      "insider"
+    ],
+    "commodities": [
+      "cot"
+    ],
+    "sentiment": [
+      "naaim"
+    ]
+  }
+}

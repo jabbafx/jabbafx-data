@@ -77,6 +77,8 @@ git add anomalies/recent.json
 if git diff --cached --quiet; then
   echo "[$(date -u +%FT%TZ)] no changes to anomalies/recent.json" >>"$LOG"
 else
+  python3 "$CLONE/pipeline/build_manifest.py" >>"$LOG" 2>&1 || true
+  git add data_audit/manifest.json 2>>"$LOG" || true
   git commit -m "Anomalies daily: $(date -u +%FT%TZ)" >>"$LOG" 2>&1
   if [ "$NO_PUSH" -eq 0 ]; then
     if ! git push >>"$LOG" 2>&1; then
