@@ -1,6 +1,31 @@
 {
-  "fetched_utc": "2026-05-21T20:15:02.904530Z",
+  "fetched_utc": "2026-05-21T21:15:02.916036Z",
   "filings": [
+    {
+      "title": "8-K - PayPal Holdings, Inc. (0001633917) (Filer)",
+      "filer": "PayPal Holdings, Inc.",
+      "ticker": "PYPL",
+      "cik": "0001633917",
+      "updated": "2026-05-21T17:14:04-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000076/0001633917-26-000076-index.htm",
+      "items": [
+        "5.02",
+        "5.07",
+        "9.01"
+      ]
+    },
+    {
+      "title": "8-K - Alphabet Inc. (0001652044) (Filer)",
+      "filer": "Alphabet Inc.",
+      "ticker": "GOOG",
+      "cik": "0001652044",
+      "updated": "2026-05-21T16:25:10-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526234488/0001193125-26-234488-index.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - Walmart Inc. (0000104169) (Filer)",
       "filer": "Walmart Inc.",
