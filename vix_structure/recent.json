@@ -1,6 +1,6 @@
 {
-  "data_computed_utc": "2026-05-21T23:30:10+00:00",
-  "scan_date": "2026-05-21",
+  "data_computed_utc": "2026-05-22T23:30:08+00:00",
+  "scan_date": "2026-05-22",
   "decision_rule": "Capitulation watch: VIX > 30 + backwardation (front > 3M) + extreme PCR (M2C |z| >= 2) + COT commercial net <5th percentile (M1C). 3-of-4 align = prepare contrarian long. 4-of-4 = execute size.",
   "thresholds": {
     "front_min_dte": 7,
@@ -34,154 +34,154 @@
   },
   "result": {
     "status": "ok",
-    "scan_date": "2026-05-21",
-    "data_timestamp": "2026-05-21 23:29:46",
+    "scan_date": "2026-05-22",
+    "data_timestamp": "2026-05-22 23:29:46",
     "vix": {
-      "spot": 16.76,
-      "price_change": -0.68,
-      "price_change_percent": -3.8991,
-      "prev_close": 17.44,
+      "spot": 16.7,
+      "price_change": -0.06,
+      "price_change_percent": -0.358,
+      "prev_close": 16.76,
       "regime": "normal"
     },
-    "spy_spot": 743.95,
+    "spy_spot": 744.41,
     "term_structure": {
       "curve": [
         {
           "expiration": "2026-05-27",
-          "dte": 6,
-          "forward": 17.79,
+          "dte": 5,
+          "forward": 17.78,
           "atm_strike": 18.0,
-          "call_mid": 0.68,
-          "put_mid": 0.89,
-          "n_strikes_evaluated": 25
+          "call_mid": 0.545,
+          "put_mid": 0.765,
+          "n_strikes_evaluated": 26
         },
         {
           "expiration": "2026-06-02",
-          "dte": 12,
-          "forward": 18.785,
+          "dte": 11,
+          "forward": 18.74,
           "atm_strike": 19.0,
-          "call_mid": 1.025,
-          "put_mid": 1.24,
-          "n_strikes_evaluated": 22
+          "call_mid": 0.91,
+          "put_mid": 1.17,
+          "n_strikes_evaluated": 23
         },
         {
           "expiration": "2026-06-10",
-          "dte": 20,
-          "forward": 18.815,
+          "dte": 19,
+          "forward": 19.03,
           "atm_strike": 19.0,
-          "call_mid": 1.4,
-          "put_mid": 1.585,
+          "call_mid": 1.41,
+          "put_mid": 1.38,
           "n_strikes_evaluated": 23
         },
         {
           "expiration": "2026-06-17",
-          "dte": 27,
-          "forward": 19.41,
+          "dte": 26,
+          "forward": 19.56,
           "atm_strike": 19.5,
-          "call_mid": 1.72,
-          "put_mid": 1.81,
+          "call_mid": 1.74,
+          "put_mid": 1.68,
           "n_strikes_evaluated": 39
         },
         {
           "expiration": "2026-06-24",
-          "dte": 34,
-          "forward": 19.94,
+          "dte": 33,
+          "forward": 19.945,
           "atm_strike": 20.0,
-          "call_mid": 2.08,
-          "put_mid": 2.14,
-          "n_strikes_evaluated": 16
+          "call_mid": 1.935,
+          "put_mid": 1.99,
+          "n_strikes_evaluated": 19
         },
         {
           "expiration": "2026-07-22",
-          "dte": 62,
-          "forward": 21.13,
+          "dte": 61,
+          "forward": 21.23,
           "atm_strike": 21.0,
-          "call_mid": 2.615,
-          "put_mid": 2.485,
+          "call_mid": 2.635,
+          "put_mid": 2.405,
           "n_strikes_evaluated": 39
         },
         {
           "expiration": "2026-08-19",
-          "dte": 90,
-          "forward": 21.685,
+          "dte": 89,
+          "forward": 21.805,
           "atm_strike": 22.0,
-          "call_mid": 2.935,
-          "put_mid": 3.25,
+          "call_mid": 2.98,
+          "put_mid": 3.175,
           "n_strikes_evaluated": 29
         },
         {
           "expiration": "2026-09-16",
-          "dte": 118,
-          "forward": 22.1,
+          "dte": 117,
+          "forward": 22.175,
           "atm_strike": 22.0,
-          "call_mid": 3.325,
-          "put_mid": 3.225,
+          "call_mid": 3.375,
+          "put_mid": 3.2,
           "n_strikes_evaluated": 29
         },
         {
           "expiration": "2026-10-21",
-          "dte": 153,
-          "forward": 22.6,
+          "dte": 152,
+          "forward": 22.725,
           "atm_strike": 23.0,
-          "call_mid": 3.475,
-          "put_mid": 3.875,
+          "call_mid": 3.55,
+          "put_mid": 3.825,
           "n_strikes_evaluated": 29
         },
         {
           "expiration": "2026-11-18",
-          "dte": 181,
-          "forward": 22.625,
+          "dte": 180,
+          "forward": 22.725,
           "atm_strike": 23.0,
-          "call_mid": 3.6,
-          "put_mid": 3.975,
+          "call_mid": 3.65,
+          "put_mid": 3.925,
           "n_strikes_evaluated": 27
         },
         {
           "expiration": "2026-12-16",
-          "dte": 209,
-          "forward": 22.5,
-          "atm_strike": 22.0,
-          "call_mid": 4.0,
-          "put_mid": 3.5,
+          "dte": 208,
+          "forward": 22.6,
+          "atm_strike": 23.0,
+          "call_mid": 3.75,
+          "put_mid": 4.15,
           "n_strikes_evaluated": 28
         },
         {
           "expiration": "2027-01-20",
-          "dte": 244,
-          "forward": 22.925,
+          "dte": 243,
+          "forward": 22.975,
           "atm_strike": 23.0,
           "call_mid": 4.075,
-          "put_mid": 4.15,
+          "put_mid": 4.1,
           "n_strikes_evaluated": 24
         }
       ],
       "shape": {
-        "front_dte": 12,
-        "front_forward": 18.785,
-        "three_m_dte": 90,
-        "three_m_forward": 21.685,
-        "back_dte": 181,
-        "back_forward": 22.625,
-        "slope_front_to_3m": 0.1544,
-        "ratio_front_to_3m": 0.8663,
+        "front_dte": 11,
+        "front_forward": 18.74,
+        "three_m_dte": 89,
+        "three_m_forward": 21.805,
+        "back_dte": 180,
+        "back_forward": 22.725,
+        "slope_front_to_3m": 0.1636,
+        "ratio_front_to_3m": 0.8594,
         "shape": "contango"
       }
     },
     "historical": {
       "vix_percentile": {
-        "history_days": 4,
+        "history_days": 5,
         "percentile": null,
         "median": null,
         "is_low": false,
         "is_high": false,
-        "note": "history-needs-60-days (4/60 so far)"
+        "note": "history-needs-60-days (5/60 so far)"
       },
       "variance_risk_premium": {
-        "history_days": 5,
+        "history_days": 6,
         "realized_vol_pct": null,
         "vrp_vol_points": null,
         "regime": null,
-        "note": "realized-vol-needs-30-spy-closes (5/30 so far)"
+        "note": "realized-vol-needs-30-spy-closes (6/30 so far)"
       }
     }
   }
