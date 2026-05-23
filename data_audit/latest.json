@@ -1,16 +1,16 @@
 {
-  "run_utc": "2026-05-19T13:03:19.814547Z",
-  "duration_s": 9.9,
+  "run_utc": "2026-05-23T06:00:28.550210Z",
+  "duration_s": 25.2,
   "total": 18,
-  "pass_count": 18,
-  "delta_count": 0,
+  "pass_count": 15,
+  "delta_count": 3,
   "fail_count": 0,
   "modules": [
     {
       "status": "ok",
-      "detail": "M5A Net Liquidity (WALCL $M) = 6728502.0 on 2026-05-13 (6d old)",
-      "value": 6728502.0,
-      "as_of": "2026-05-13",
+      "detail": "M5A Net Liquidity (WALCL $M) = 6713643.0 on 2026-05-20 (3d old)",
+      "value": 6713643.0,
+      "as_of": "2026-05-20",
       "id": "liquidity",
       "label": "M5A Net Liquidity (WALCL $M)",
       "source_type": "fred",
@@ -18,9 +18,9 @@
     },
     {
       "status": "ok",
-      "detail": "M3B US 10Y Yield (%) = 4.59 on 2026-05-15 (4d old)",
-      "value": 4.59,
-      "as_of": "2026-05-15",
+      "detail": "M3B US 10Y Yield (%) = 4.57 on 2026-05-21 (2d old)",
+      "value": 4.57,
+      "as_of": "2026-05-21",
       "id": "yields",
       "label": "M3B US 10Y Yield (%)",
       "source_type": "fred",
@@ -28,8 +28,8 @@
     },
     {
       "status": "ok",
-      "detail": "M5C GDPNow (% real GDP) = 3.9912 on 2026-04-01 (48d old)",
-      "value": 3.9912,
+      "detail": "M5C GDPNow (% real GDP) = 4.2573 on 2026-04-01 (52d old)",
+      "value": 4.2573,
       "as_of": "2026-04-01",
       "id": "growth",
       "label": "M5C GDPNow (% real GDP)",
@@ -38,7 +38,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5C CFNAI = -0.2 on 2026-03-01 (79d old)",
+      "detail": "M5C CFNAI = -0.2 on 2026-03-01 (83d old)",
       "value": -0.2,
       "as_of": "2026-03-01",
       "id": "growth_cfnai",
@@ -47,8 +47,8 @@
       "source_ref": "CFNAI"
     },
     {
-      "status": "ok",
-      "detail": "M4C CPI (level) = 332.407 on 2026-04-01 (48d old)",
+      "status": "delta",
+      "detail": "M4C CPI (level) latest obs 2026-04-01 is 52d old (max expected 50d)",
       "value": 332.407,
       "as_of": "2026-04-01",
       "id": "events_cpi",
@@ -57,8 +57,8 @@
       "source_ref": "CPIAUCSL"
     },
     {
-      "status": "ok",
-      "detail": "M4C Unemployment Rate (%) = 4.3 on 2026-04-01 (48d old)",
+      "status": "delta",
+      "detail": "M4C Unemployment Rate (%) latest obs 2026-04-01 is 52d old (max expected 50d)",
       "value": 4.3,
       "as_of": "2026-04-01",
       "id": "events_unrate",
@@ -68,7 +68,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5G German Bund 10Y (%) = 2.9963157895 on 2026-04-01 (48d old)",
+      "detail": "M5G German Bund 10Y (%) = 2.9963157895 on 2026-04-01 (52d old)",
       "value": 2.9963157895,
       "as_of": "2026-04-01",
       "id": "intl_de10",
@@ -78,9 +78,9 @@
     },
     {
       "status": "ok",
-      "detail": "M5A NFCI (financial conditions) = -0.524 on 2026-05-08 (11d old)",
-      "value": -0.524,
-      "as_of": "2026-05-08",
+      "detail": "M5A NFCI (financial conditions) = -0.523 on 2026-05-15 (8d old)",
+      "value": -0.523,
+      "as_of": "2026-05-15",
       "id": "liq_nfci",
       "label": "M5A NFCI (financial conditions)",
       "source_type": "fred",
@@ -88,9 +88,9 @@
     },
     {
       "status": "ok",
-      "detail": "M5A HY OAS (%) = 2.8 on 2026-05-15 (4d old)",
-      "value": 2.8,
-      "as_of": "2026-05-15",
+      "detail": "M5A HY OAS (%) = 2.78 on 2026-05-21 (2d old)",
+      "value": 2.78,
+      "as_of": "2026-05-21",
       "id": "liq_hyoas",
       "label": "M5A HY OAS (%)",
       "source_type": "fred",
@@ -98,7 +98,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1A 13F Holdings 7KB, 0 records, 69.2h old",
+      "detail": "M1A 13F Holdings 7KB, 0 records, 158.2h old",
       "value": 0,
       "id": "institutional",
       "label": "M1A 13F Holdings",
@@ -107,7 +107,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1B Insider Transactions 6KB, 0 records, 15.0h old",
+      "detail": "M1B Insider Transactions 13KB, 0 records, 8.0h old",
       "value": 0,
       "id": "insider",
       "label": "M1B Insider Transactions",
@@ -116,7 +116,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1C COT Report 3KB, 0 records, 66.5h old",
+      "detail": "M1C COT Report 3KB, 0 records, 7.5h old",
       "value": 0,
       "id": "cot",
       "label": "M1C COT Report",
@@ -125,8 +125,8 @@
     },
     {
       "status": "ok",
-      "detail": "M2B Options Anomalies 1584KB, 2455 records, 15.5h old",
-      "value": 2455,
+      "detail": "M2B Options Anomalies 1404KB, 2169 records, 8.5h old",
+      "value": 2169,
       "id": "anomalies",
       "label": "M2B Options Anomalies",
       "source_type": "github",
@@ -134,7 +134,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5H Historical Archive 649KB, 2316 records, 47.7h old",
+      "detail": "M5H Historical Archive 649KB, 2316 records, 136.6h old",
       "value": 2316,
       "id": "history",
       "label": "M5H Historical Archive",
@@ -143,7 +143,7 @@
     },
     {
       "status": "ok",
-      "detail": "M3A VIX Term Structure 5KB, 0 records, 13.6h old",
+      "detail": "M3A VIX Term Structure 5KB, 0 records, 6.5h old",
       "value": 0,
       "id": "vix_struct",
       "label": "M3A VIX Term Structure",
@@ -152,7 +152,7 @@
     },
     {
       "status": "ok",
-      "detail": "M2A GEX 4KB, 0 records, 16.0h old",
+      "detail": "M2A GEX 4KB, 0 records, 9.0h old",
       "value": 0,
       "id": "gex",
       "label": "M2A GEX",
@@ -160,8 +160,8 @@
       "source_ref": "gex/latest.json"
     },
     {
-      "status": "ok",
-      "detail": "M6C NAAIM Exposure Index 1KB, 0 records, 0.4h old",
+      "status": "delta",
+      "detail": "M6C NAAIM Exposure Index 1KB, 0 records, 56h old (max 48h)",
       "value": 0,
       "id": "naaim",
       "label": "M6C NAAIM Exposure Index",
@@ -170,8 +170,8 @@
     },
     {
       "status": "ok",
-      "detail": "M6E SEC 8-K Live Feed 0KB, 1 records, 0.4h old",
-      "value": 1,
+      "detail": "M6E SEC 8-K Live Feed 5KB, 12 records, 7.8h old",
+      "value": 12,
       "id": "sec_8k",
       "label": "M6E SEC 8-K Live Feed",
       "source_type": "github",
