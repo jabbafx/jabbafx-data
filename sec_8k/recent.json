@@ -1,6 +1,17 @@
 {
-  "fetched_utc": "2026-05-25T22:15:02.437577Z",
+  "fetched_utc": "2026-05-26T12:15:02.321481Z",
   "filings": [
+    {
+      "title": "8-K - THERMO FISHER SCIENTIFIC INC. (0000097745) (Filer)",
+      "filer": "THERMO FISHER SCIENTIFIC INC.",
+      "ticker": "TMO",
+      "cik": "0000097745",
+      "updated": "2026-05-26T07:31:03-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000117/0000097745-26-000117-index.htm",
+      "items": [
+        "5.07"
+      ]
+    },
     {
       "title": "8-K - PEPSICO INC (0000077476) (Filer)",
       "filer": "PEPSICO INC",
@@ -131,18 +142,6 @@
       "items": [
         "5.02",
         "7.01",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - HOME DEPOT, INC. (0000354950) (Filer)",
-      "filer": "HOME DEPOT, INC.",
-      "ticker": "HD",
-      "cik": "0000354950",
-      "updated": "2026-05-19T06:06:14-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000101/0000354950-26-000101-index.htm",
-      "items": [
-        "2.02",
         "9.01"
       ]
     }
