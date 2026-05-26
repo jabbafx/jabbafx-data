@@ -1,6 +1,19 @@
 {
-  "fetched_utc": "2026-05-26T13:15:02.964253Z",
+  "fetched_utc": "2026-05-26T14:15:02.460229Z",
   "filings": [
+    {
+      "title": "8-K - HOME DEPOT, INC. (0000354950) (Filer)",
+      "filer": "HOME DEPOT, INC.",
+      "ticker": "HD",
+      "cik": "0000354950",
+      "updated": "2026-05-26T09:19:39-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000105/0000354950-26-000105-index.htm",
+      "items": [
+        "5.03",
+        "5.07",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - THERMO FISHER SCIENTIFIC INC. (0000097745) (Filer)",
       "filer": "THERMO FISHER SCIENTIFIC INC.",
