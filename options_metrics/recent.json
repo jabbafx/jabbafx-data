@@ -1,6 +1,6 @@
 {
-  "data_computed_utc": "2026-05-25T23:00:26+00:00",
-  "scan_date": "2026-05-25",
+  "data_computed_utc": "2026-05-26T23:00:27+00:00",
+  "scan_date": "2026-05-26",
   "underlyings_scanned": 10,
   "underlyings_ok": 10,
   "decision_rule": "Fade prevailing bias when |z_30d(volume_pcr)| \u2265 2.0 AND signal aligns with at least one of [GEX flip break, COT extreme, 13F change]. No standalone PCR-only trades.",
@@ -13,408 +13,408 @@
     "pcr_extreme_z": 2.0
   },
   "aggregate": {
-    "volume_pcr": 0.9324,
+    "volume_pcr": 0.7685,
     "oi_pcr": 1.2428
   },
   "underlyings": [
     {
       "symbol": "SPY",
       "status": "ok",
-      "spot": 745.64,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:56:18",
+      "spot": 749.9782,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:24",
       "pcr": {
-        "total_call_volume": 1209425,
-        "total_put_volume": 1867364,
+        "total_call_volume": 5192280,
+        "total_put_volume": 4791725,
         "total_call_oi": 5554323,
         "total_put_oi": 12397762,
-        "volume_pcr": 1.5440097567025652,
+        "volume_pcr": 0.9228556626376081,
         "oi_pcr": 2.2320923720136547
       },
       "expected_move": {
-        "atm_strike": 746.0,
-        "atm_call_mid": 13.58,
-        "atm_put_mid": 12.585,
-        "expected_move_dollars": 26.165,
-        "expected_move_pct": 3.5091,
-        "straddle_iv": 0.14005,
-        "dte_used": 32
+        "atm_strike": 750.0,
+        "atm_call_mid": 13.1,
+        "atm_put_mid": 11.98,
+        "expected_move_dollars": 25.08,
+        "expected_move_pct": 3.3441,
+        "straddle_iv": 0.1419,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.1156,
-        "prob_up_10pct": 0.0102,
+        "prob_up_5pct": 0.115,
+        "prob_up_10pct": 0.01,
         "prob_up_20pct": 0.0,
-        "prob_down_5pct": 0.112,
-        "prob_down_10pct": 0.0059,
+        "prob_down_5pct": 0.1113,
+        "prob_down_10pct": 0.0058,
         "prob_down_20pct": 0.0
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "QQQ",
       "status": "ok",
-      "spot": 715.31,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:52:42",
+      "spot": 729.47,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:30",
       "pcr": {
-        "total_call_volume": 721778,
-        "total_put_volume": 1197313,
+        "total_call_volume": 3178547,
+        "total_put_volume": 3585622,
         "total_call_oi": 4012375,
         "total_put_oi": 6628939,
-        "volume_pcr": 1.658838313165544,
+        "volume_pcr": 1.1280695235904958,
         "oi_pcr": 1.6521234929437054
       },
       "expected_move": {
-        "atm_strike": 715.0,
-        "atm_call_mid": 20.715,
-        "atm_put_mid": 16.3,
-        "expected_move_dollars": 37.015,
-        "expected_move_pct": 5.1747,
-        "straddle_iv": 0.20755,
-        "dte_used": 32
+        "atm_strike": 729.0,
+        "atm_call_mid": 19.48,
+        "atm_put_mid": 17.045,
+        "expected_move_dollars": 36.525,
+        "expected_move_pct": 5.0071,
+        "straddle_iv": 0.2143,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.2048,
-        "prob_up_10pct": 0.0569,
-        "prob_up_20pct": 0.0014,
-        "prob_down_5pct": 0.2107,
-        "prob_down_10pct": 0.0461,
+        "prob_up_5pct": 0.2083,
+        "prob_up_10pct": 0.0597,
+        "prob_up_20pct": 0.0016,
+        "prob_down_5pct": 0.2147,
+        "prob_down_10pct": 0.0489,
         "prob_down_20pct": 0.0002
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "IWM",
       "status": "ok",
-      "spot": 285.12,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 21:05:06",
+      "spot": 290.38,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:35",
       "pcr": {
-        "total_call_volume": 274071,
-        "total_put_volume": 570450,
+        "total_call_volume": 742864,
+        "total_put_volume": 906504,
         "total_call_oi": 2689933,
         "total_put_oi": 7542730,
-        "volume_pcr": 2.081394966997603,
+        "volume_pcr": 1.2202825820069354,
         "oi_pcr": 2.8040586884506045
       },
       "expected_move": {
-        "atm_strike": 285.0,
-        "atm_call_mid": 8.0,
-        "atm_put_mid": 7.825,
-        "expected_move_dollars": 15.825,
-        "expected_move_pct": 5.5503,
-        "straddle_iv": 0.22345,
-        "dte_used": 32
+        "atm_strike": 290.0,
+        "atm_call_mid": 8.15,
+        "atm_put_mid": 7.465,
+        "expected_move_dollars": 15.615,
+        "expected_move_pct": 5.3774,
+        "straddle_iv": 0.22895,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.2205,
-        "prob_up_10pct": 0.0703,
-        "prob_up_20pct": 0.0026,
-        "prob_down_5pct": 0.229,
-        "prob_down_10pct": 0.0595,
-        "prob_down_20pct": 0.0004
+        "prob_up_5pct": 0.2223,
+        "prob_up_10pct": 0.0719,
+        "prob_up_20pct": 0.0028,
+        "prob_down_5pct": 0.2311,
+        "prob_down_10pct": 0.0611,
+        "prob_down_20pct": 0.0005
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "NVDA",
       "status": "ok",
-      "spot": 214.2801,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:56:17",
+      "spot": 213.92,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:23",
       "pcr": {
-        "total_call_volume": 1366590,
-        "total_put_volume": 684565,
+        "total_call_volume": 2742271,
+        "total_put_volume": 1148005,
         "total_call_oi": 8657335,
         "total_put_oi": 7036120,
-        "volume_pcr": 0.5009293204252921,
+        "volume_pcr": 0.41863295057271876,
         "oi_pcr": 0.812735096886051
       },
       "expected_move": {
         "atm_strike": 215.0,
-        "atm_call_mid": 10.275,
-        "atm_put_mid": 9.4,
-        "expected_move_dollars": 19.675,
-        "expected_move_pct": 9.1819,
-        "straddle_iv": 0.3692,
-        "dte_used": 32
+        "atm_call_mid": 9.65,
+        "atm_put_mid": 9.375,
+        "expected_move_dollars": 19.025,
+        "expected_move_pct": 8.8935,
+        "straddle_iv": 0.38,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.3082,
-        "prob_up_10pct": 0.1771,
-        "prob_up_20pct": 0.0425,
-        "prob_down_5pct": 0.3392,
-        "prob_down_10pct": 0.1816,
-        "prob_down_20pct": 0.0235
+        "prob_up_5pct": 0.31,
+        "prob_up_10pct": 0.1798,
+        "prob_up_20pct": 0.0444,
+        "prob_down_5pct": 0.3417,
+        "prob_down_10pct": 0.1851,
+        "prob_down_20pct": 0.025
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "TSLA",
       "status": "ok",
-      "spot": 423.671,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:42:56",
+      "spot": 435.549,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:23",
       "pcr": {
-        "total_call_volume": 1075192,
-        "total_put_volume": 585320,
+        "total_call_volume": 2473260,
+        "total_put_volume": 1157109,
         "total_call_oi": 3743953,
         "total_put_oi": 2756271,
-        "volume_pcr": 0.544386490970915,
+        "volume_pcr": 0.4678476989883797,
         "oi_pcr": 0.7361927353254701
       },
       "expected_move": {
-        "atm_strike": 425.0,
-        "atm_call_mid": 24.175,
-        "atm_put_mid": 21.6,
-        "expected_move_dollars": 45.775,
-        "expected_move_pct": 10.8044,
-        "straddle_iv": 0.4339,
-        "dte_used": 32
+        "atm_strike": 435.0,
+        "atm_call_mid": 22.4,
+        "atm_put_mid": 22.425,
+        "expected_move_dollars": 44.825,
+        "expected_move_pct": 10.2916,
+        "straddle_iv": 0.443,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.3285,
-        "prob_up_10pct": 0.2101,
-        "prob_up_20pct": 0.069,
-        "prob_down_5pct": 0.3688,
-        "prob_down_10pct": 0.2249,
-        "prob_down_20pct": 0.0472
+        "prob_up_5pct": 0.3291,
+        "prob_up_10pct": 0.211,
+        "prob_up_20pct": 0.0699,
+        "prob_down_5pct": 0.3697,
+        "prob_down_10pct": 0.2262,
+        "prob_down_20pct": 0.0481
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "AAPL",
       "status": "ok",
-      "spot": 308.4105,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:31:01",
+      "spot": 308.21,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:29",
       "pcr": {
-        "total_call_volume": 534326,
-        "total_put_volume": 296545,
+        "total_call_volume": 655383,
+        "total_put_volume": 277493,
         "total_call_oi": 2799188,
         "total_put_oi": 2011832,
-        "volume_pcr": 0.5549889019063269,
+        "volume_pcr": 0.4234058558125554,
         "oi_pcr": 0.7187198573300543
       },
       "expected_move": {
         "atm_strike": 310.0,
-        "atm_call_mid": 8.175,
-        "atm_put_mid": 8.2,
-        "expected_move_dollars": 16.375,
-        "expected_move_pct": 5.3095,
-        "straddle_iv": 0.2128,
-        "dte_used": 32
+        "atm_call_mid": 7.55,
+        "atm_put_mid": 8.375,
+        "expected_move_dollars": 15.925,
+        "expected_move_pct": 5.1669,
+        "straddle_iv": 0.22015,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.2102,
-        "prob_up_10pct": 0.0613,
-        "prob_up_20pct": 0.0017,
-        "prob_down_5pct": 0.2169,
-        "prob_down_10pct": 0.0504,
-        "prob_down_20pct": 0.0002
+        "prob_up_5pct": 0.214,
+        "prob_up_10pct": 0.0646,
+        "prob_up_20pct": 0.002,
+        "prob_down_5pct": 0.2214,
+        "prob_down_10pct": 0.0537,
+        "prob_down_20pct": 0.0003
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "MSFT",
       "status": "ok",
-      "spot": 417.7981,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:35:56",
+      "spot": 415.16,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:34",
       "pcr": {
-        "total_call_volume": 274205,
-        "total_put_volume": 83158,
+        "total_call_volume": 480531,
+        "total_put_volume": 201560,
         "total_call_oi": 2597688,
         "total_put_oi": 1239584,
-        "volume_pcr": 0.303269451687606,
+        "volume_pcr": 0.4194526471757285,
         "oi_pcr": 0.47718740664775755
       },
       "expected_move": {
-        "atm_strike": 420.0,
-        "atm_call_mid": 13.875,
-        "atm_put_mid": 13.9,
-        "expected_move_dollars": 27.775,
-        "expected_move_pct": 6.6479,
-        "straddle_iv": 0.26685,
-        "dte_used": 32
+        "atm_strike": 415.0,
+        "atm_call_mid": 14.8,
+        "atm_put_mid": 12.375,
+        "expected_move_dollars": 27.175,
+        "expected_move_pct": 6.5457,
+        "straddle_iv": 0.2793,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.2556,
-        "prob_up_10pct": 0.1064,
-        "prob_up_20pct": 0.0095,
-        "prob_down_5pct": 0.271,
-        "prob_down_10pct": 0.0978,
-        "prob_down_20pct": 0.0027
+        "prob_up_5pct": 0.261,
+        "prob_up_10pct": 0.1128,
+        "prob_up_20pct": 0.0113,
+        "prob_down_5pct": 0.2778,
+        "prob_down_10pct": 0.105,
+        "prob_down_20pct": 0.0035
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "AMD",
       "status": "ok",
-      "spot": 462.81,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:58:27",
+      "spot": 505.0,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:27",
       "pcr": {
-        "total_call_volume": 233607,
-        "total_put_volume": 145210,
+        "total_call_volume": 327454,
+        "total_put_volume": 221239,
         "total_call_oi": 1500601,
         "total_put_oi": 1580000,
-        "volume_pcr": 0.6215995239868668,
+        "volume_pcr": 0.6756338294844467,
         "oi_pcr": 1.0529114668056332
       },
       "expected_move": {
-        "atm_strike": 465.0,
-        "atm_call_mid": 40.5,
-        "atm_put_mid": 36.275,
-        "expected_move_dollars": 76.775,
-        "expected_move_pct": 16.5889,
-        "straddle_iv": 0.66695,
-        "dte_used": 32
+        "atm_strike": 505.0,
+        "atm_call_mid": 43.0,
+        "atm_put_mid": 42.05,
+        "expected_move_dollars": 85.05,
+        "expected_move_pct": 16.8416,
+        "straddle_iv": 0.72645,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.3647,
-        "prob_up_10pct": 0.2805,
-        "prob_up_20pct": 0.1534,
-        "prob_down_5pct": 0.436,
-        "prob_down_10pct": 0.3319,
-        "prob_down_20pct": 0.1512
+        "prob_up_5pct": 0.3683,
+        "prob_up_10pct": 0.2891,
+        "prob_up_20pct": 0.1668,
+        "prob_down_5pct": 0.4457,
+        "prob_down_10pct": 0.3476,
+        "prob_down_20pct": 0.1715
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "META",
       "status": "ok",
-      "spot": 607.35,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 21:09:21",
+      "spot": 609.65,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:28",
       "pcr": {
-        "total_call_volume": 169430,
-        "total_put_volume": 69291,
+        "total_call_volume": 323355,
+        "total_put_volume": 130311,
         "total_call_oi": 2007471,
         "total_put_oi": 921055,
-        "volume_pcr": 0.4089653544236558,
+        "volume_pcr": 0.4029967064062717,
         "oi_pcr": 0.45881360179051156
       },
       "expected_move": {
-        "atm_strike": 605.0,
-        "atm_call_mid": 25.65,
-        "atm_put_mid": 18.65,
-        "expected_move_dollars": 44.3,
-        "expected_move_pct": 7.294,
-        "straddle_iv": 0.2916,
-        "dte_used": 32
+        "atm_strike": 610.0,
+        "atm_call_mid": 23.65,
+        "atm_put_mid": 20.325,
+        "expected_move_dollars": 43.975,
+        "expected_move_pct": 7.2132,
+        "straddle_iv": 0.3075,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.2715,
-        "prob_up_10pct": 0.1257,
-        "prob_up_20pct": 0.0156,
-        "prob_down_5pct": 0.2908,
-        "prob_down_10pct": 0.1196,
-        "prob_down_20pct": 0.0055
+        "prob_up_5pct": 0.2778,
+        "prob_up_10pct": 0.1339,
+        "prob_up_20pct": 0.0188,
+        "prob_down_5pct": 0.2989,
+        "prob_down_10pct": 0.129,
+        "prob_down_20pct": 0.0072
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     },
     {
       "symbol": "GOOG",
       "status": "ok",
-      "spot": 378.68,
-      "scan_date": "2026-05-25",
-      "data_timestamp": "2026-05-25 22:56:42",
+      "spot": 384.0,
+      "scan_date": "2026-05-26",
+      "data_timestamp": "2026-05-26 22:59:26",
       "pcr": {
-        "total_call_volume": 79918,
-        "total_put_volume": 38020,
+        "total_call_volume": 100308,
+        "total_put_volume": 42991,
         "total_call_oi": 965370,
         "total_put_oi": 796998,
-        "volume_pcr": 0.47573763107184863,
+        "volume_pcr": 0.428589942975635,
         "oi_pcr": 0.8255881164734765
       },
       "expected_move": {
-        "atm_strike": 380.0,
-        "atm_call_mid": 13.55,
-        "atm_put_mid": 13.2,
-        "expected_move_dollars": 26.75,
-        "expected_move_pct": 7.064,
-        "straddle_iv": 0.28405,
-        "dte_used": 32
+        "atm_strike": 385.0,
+        "atm_call_mid": 13.65,
+        "atm_put_mid": 13.075,
+        "expected_move_dollars": 26.725,
+        "expected_move_pct": 6.9596,
+        "straddle_iv": 0.29755,
+        "dte_used": 31
       },
       "implied_probabilities": {
-        "prob_up_5pct": 0.2669,
-        "prob_up_10pct": 0.1199,
-        "prob_up_20pct": 0.0136,
-        "prob_down_5pct": 0.2851,
-        "prob_down_10pct": 0.113,
-        "prob_down_20pct": 0.0045
+        "prob_up_5pct": 0.2723,
+        "prob_up_10pct": 0.1266,
+        "prob_up_20pct": 0.0159,
+        "prob_down_5pct": 0.2918,
+        "prob_down_10pct": 0.1207,
+        "prob_down_20pct": 0.0057
       },
       "pcr_historical": {
-        "history_days": 6,
+        "history_days": 7,
         "mean_30d": null,
         "stdev_30d": null,
         "z_score": null,
         "is_extreme": false,
-        "regime_note": "history-needs-20-days (6/20 so far)"
+        "regime_note": "history-needs-20-days (7/20 so far)"
       }
     }
   ]
