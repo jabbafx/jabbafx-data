@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-05-27T16:15:02.681589Z",
+  "fetched_utc": "2026-05-27T17:15:02.729574Z",
   "filings": [
     {
       "title": "8-K - HOME DEPOT, INC. (0000354950) (Filer)",
@@ -118,30 +118,6 @@
       "items": [
         "2.02",
         "7.01",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - ELI LILLY & Co (0000059478) (Filer)",
-      "filer": "ELI LILLY & Co",
-      "ticker": "LLY",
-      "cik": "0000059478",
-      "updated": "2026-05-20T16:30:32-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/59478/000119312526232707/0001193125-26-232707-index.htm",
-      "items": [
-        "8.01",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - NVIDIA CORP (0001045810) (Filer)",
-      "filer": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "0001045810",
-      "updated": "2026-05-20T16:21:19-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/0001045810-26-000051-index.htm",
-      "items": [
-        "2.02",
         "9.01"
       ]
     }
