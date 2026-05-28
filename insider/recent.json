@@ -1,13 +1,13 @@
 {
-  "data_computed": "2026-05-27T22:00:26Z",
+  "data_computed": "2026-05-28T22:00:26Z",
   "window_days": 30,
   "source_quarter": "2026-Q1",
   "tickers_scanned": 30,
   "issuers_resolved": 30,
   "tickers_unresolved": 0,
   "unresolved_tickers": [],
-  "total_form4_filings": 326,
-  "interesting_count": 22,
+  "total_form4_filings": 344,
+  "interesting_count": 21,
   "filter_rule": "reporting_owner in {director, officer} AND transaction_code in {P, S} AND (code==P OR NOT aff_10b5_one) AND value >= $250,000",
   "interesting": [
     {
@@ -123,25 +123,6 @@
       "funds_holding_13f": 5,
       "signal_strength_13f": "medium",
       "name_13f": "Netflix Inc"
-    },
-    {
-      "accession": "0001642415-26-000008",
-      "filing_date": "2026-04-27",
-      "transaction_date": "2026-04-27",
-      "issuer_ticker": "LRCX",
-      "issuer_name": "LAM RESEARCH CORP",
-      "issuer_cik": "0000707549",
-      "reporting_owner": "Harter Ava",
-      "reporting_role": "officer (Chief Legal Officer)",
-      "transaction_code": "S",
-      "shares": 6010,
-      "price_per_share": 258.66,
-      "value": 1554546.6,
-      "is_pre_planned": false,
-      "ownership_type": "D",
-      "funds_holding_13f": 5,
-      "signal_strength_13f": "medium",
-      "name_13f": "LAM RESEARCH CORP"
     },
     {
       "accession": "0001193125-26-233029",
