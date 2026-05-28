@@ -1,6 +1,18 @@
 {
-  "fetched_utc": "2026-05-28T19:15:03.248007Z",
+  "fetched_utc": "2026-05-28T20:15:03.443363Z",
   "filings": [
+    {
+      "title": "8-K - VERIZON COMMUNICATIONS INC (0000732712) (Filer)",
+      "filer": "VERIZON COMMUNICATIONS INC",
+      "ticker": "VZ",
+      "cik": "0000732712",
+      "updated": "2026-05-28T16:10:34-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/732712/000119312526245230/0001193125-26-245230-index.htm",
+      "items": [
+        "5.02",
+        "5.07"
+      ]
+    },
     {
       "title": "8-K - INTERNATIONAL BUSINESS MACHINES CORP (0000051143) (Filer)",
       "filer": "INTERNATIONAL BUSINESS MACHINES CORP",
