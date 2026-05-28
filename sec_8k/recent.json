@@ -1,6 +1,17 @@
 {
-  "fetched_utc": "2026-05-27T22:15:02.544275Z",
+  "fetched_utc": "2026-05-28T12:15:02.712054Z",
   "filings": [
+    {
+      "title": "8-K - INTERNATIONAL BUSINESS MACHINES CORP (0000051143) (Filer)",
+      "filer": "INTERNATIONAL BUSINESS MACHINES CORP",
+      "ticker": "IBM",
+      "cik": "0000051143",
+      "updated": "2026-05-28T06:49:17-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000047/0000051143-26-000047-index.htm",
+      "items": [
+        "7.01"
+      ]
+    },
     {
       "title": "8-K - HONEYWELL INTERNATIONAL INC (0000773840) (Filer)",
       "filer": "HONEYWELL INTERNATIONAL INC",
@@ -116,31 +127,6 @@
       "link": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526234488/0001193125-26-234488-index.htm",
       "items": [
         "8.01",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - Walmart Inc. (0000104169) (Filer)",
-      "filer": "Walmart Inc.",
-      "ticker": "WMT",
-      "cik": "0000104169",
-      "updated": "2026-05-21T06:59:53-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000095/0000104169-26-000095-index.htm",
-      "items": [
-        "2.02",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - DEERE & CO (0000315189) (Filer)",
-      "filer": "DEERE & CO",
-      "ticker": "DE",
-      "cik": "0000315189",
-      "updated": "2026-05-21T06:00:38-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/315189/000110465926064747/0001104659-26-064747-index.htm",
-      "items": [
-        "2.02",
-        "7.01",
         "9.01"
       ]
     }
