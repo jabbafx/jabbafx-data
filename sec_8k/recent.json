@@ -1,6 +1,29 @@
 {
-  "fetched_utc": "2026-05-28T20:15:03.443363Z",
+  "fetched_utc": "2026-05-28T21:15:02.716416Z",
   "filings": [
+    {
+      "title": "8-K - COSTCO WHOLESALE CORP /NEW (0000909832) (Filer)",
+      "filer": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "cik": "0000909832",
+      "updated": "2026-05-28T16:17:32-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000046/0000909832-26-000046-index.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ]
+    },
+    {
+      "title": "8-K - Merck & Co., Inc. (0000310158) (Filer)",
+      "filer": "Merck & Co., Inc.",
+      "ticker": "MRK",
+      "cik": "0000310158",
+      "updated": "2026-05-28T16:15:25-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/310158/000110465926067509/0001104659-26-067509-index.htm",
+      "items": [
+        "5.07"
+      ]
+    },
     {
       "title": "8-K - VERIZON COMMUNICATIONS INC (0000732712) (Filer)",
       "filer": "VERIZON COMMUNICATIONS INC",
