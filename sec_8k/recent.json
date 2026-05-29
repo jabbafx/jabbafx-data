@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-05-29T16:15:02.660093Z",
+  "fetched_utc": "2026-05-29T17:15:02.745735Z",
   "filings": [
     {
       "title": "8-K - CHEVRON CORP (0000093410) (Filer)",
@@ -114,41 +114,6 @@
       "link": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000117/0000097745-26-000117-index.htm",
       "items": [
         "5.07"
-      ]
-    },
-    {
-      "title": "8-K - PEPSICO INC (0000077476) (Filer)",
-      "filer": "PEPSICO INC",
-      "ticker": "PEP",
-      "cik": "0000077476",
-      "updated": "2026-05-22T16:30:39-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/77476/000110465926065758/0001104659-26-065758-index.htm",
-      "items": [
-        "8.01",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - BlackRock, Inc. (0002012383) (Filer)",
-      "filer": "BlackRock, Inc.",
-      "ticker": "BLK",
-      "cik": "0002012383",
-      "updated": "2026-05-22T16:30:38-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526237027/0001193125-26-237027-index.htm",
-      "items": [
-        "5.07"
-      ]
-    },
-    {
-      "title": "8-K - Merck & Co., Inc. (0000310158) (Filer)",
-      "filer": "Merck & Co., Inc.",
-      "ticker": "MRK",
-      "cik": "0000310158",
-      "updated": "2026-05-22T16:21:18-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/310158/000162828026037738/0001628280-26-037738-index.htm",
-      "items": [
-        "8.01",
-        "9.01"
       ]
     }
   ],
