@@ -1,6 +1,17 @@
 {
-  "fetched_utc": "2026-05-29T13:15:02.879218Z",
+  "fetched_utc": "2026-05-29T14:15:02.367349Z",
   "filings": [
+    {
+      "title": "8-K - CHEVRON CORP (0000093410) (Filer)",
+      "filer": "CHEVRON CORP",
+      "ticker": "CVX",
+      "cik": "0000093410",
+      "updated": "2026-05-29T10:12:25-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000125/0000093410-26-000125-index.htm",
+      "items": [
+        "5.07"
+      ]
+    },
     {
       "title": "8-K - CHEVRON CORP (0000093410) (Filer)",
       "filer": "CHEVRON CORP",
