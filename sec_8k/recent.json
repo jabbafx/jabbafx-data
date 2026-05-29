@@ -1,6 +1,17 @@
 {
-  "fetched_utc": "2026-05-29T20:15:03.089066Z",
+  "fetched_utc": "2026-05-29T21:15:02.509937Z",
   "filings": [
+    {
+      "title": "8-K - Meta Platforms, Inc. (0001326801) (Filer)",
+      "filer": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "cik": "0001326801",
+      "updated": "2026-05-29T16:16:13-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/0001628280-26-039193-index.htm",
+      "items": [
+        "5.07"
+      ]
+    },
     {
       "title": "8-K - EXXON MOBIL CORP (0000034088) (Filer)",
       "filer": "EXXON MOBIL CORP",
