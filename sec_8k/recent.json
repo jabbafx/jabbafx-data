@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-05-29T15:15:02.124130Z",
+  "fetched_utc": "2026-05-29T16:15:02.660093Z",
   "filings": [
     {
       "title": "8-K - CHEVRON CORP (0000093410) (Filer)",
@@ -149,17 +149,6 @@
       "items": [
         "8.01",
         "9.01"
-      ]
-    },
-    {
-      "title": "8-K - AMAZON COM INC (0001018724) (Filer)",
-      "filer": "AMAZON COM INC",
-      "ticker": "AMZN",
-      "cik": "0001018724",
-      "updated": "2026-05-22T16:12:53-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926065717/0001104659-26-065717-index.htm",
-      "items": [
-        "5.07"
       ]
     }
   ],
