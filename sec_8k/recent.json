@@ -1,6 +1,29 @@
 {
-  "fetched_utc": "2026-06-01T20:15:04.133416Z",
+  "fetched_utc": "2026-06-01T21:15:02.307177Z",
   "filings": [
+    {
+      "title": "8-K - Salesforce, Inc. (0001108524) (Filer)",
+      "filer": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "cik": "0001108524",
+      "updated": "2026-06-01T16:43:09-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000131/0001108524-26-000131-index.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ]
+    },
+    {
+      "title": "8-K - DEERE & CO (0000315189) (Filer)",
+      "filer": "DEERE & CO",
+      "ticker": "DE",
+      "cik": "0000315189",
+      "updated": "2026-06-01T16:15:26-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/315189/000110465926068930/0001104659-26-068930-index.htm",
+      "items": [
+        "5.02"
+      ]
+    },
     {
       "title": "8-K - Meta Platforms, Inc. (0001326801) (Filer)",
       "filer": "Meta Platforms, Inc.",
