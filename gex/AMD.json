@@ -1,1626 +1,1746 @@
 {
   "symbol": "AMD",
-  "spot": 514.51,
-  "data_timestamp": "2026-05-29 21:00:33",
-  "iv30": 68.711,
-  "fallback_iv_used": 0.68711,
-  "total_gex_dollars": 30024894851.0,
-  "total_call_gex_dollars": 53417986906.0,
-  "total_put_gex_dollars": 23393092055.0,
-  "total_call_oi": 874894,
-  "total_put_oi": 648307,
-  "pc_oi_ratio": 0.741,
-  "zero_gamma_flip": 317.97,
+  "spot": 508.33,
+  "data_timestamp": "2026-06-01 21:00:32",
+  "iv30": 70.262,
+  "fallback_iv_used": 0.70262,
+  "total_gex_dollars": 20267868732.0,
+  "total_call_gex_dollars": 37895024908.0,
+  "total_put_gex_dollars": 17627156177.0,
+  "total_call_oi": 753281,
+  "total_put_oi": 597981,
+  "pc_oi_ratio": 0.794,
+  "zero_gamma_flip": 503.16,
   "zero_gamma_flip_method": "sign_change",
   "zero_gamma_flip_bs": null,
-  "bs_contracts_in_flip_calc": 2330,
-  "call_wall_strike": 520.0,
-  "call_wall_gex": 3937363308.0,
-  "put_wall_strike": 507.5,
-  "put_wall_gex": -208091522.0,
+  "bs_contracts_in_flip_calc": 2521,
+  "call_wall_strike": 550.0,
+  "call_wall_gex": 1950843034.0,
+  "put_wall_strike": 470.0,
+  "put_wall_gex": -438589035.0,
   "regime": "net_long_gamma",
-  "contracts_used": 2066,
-  "contracts_skipped_zero_gamma_or_oi": 1076,
+  "contracts_used": 2051,
+  "contracts_skipped_zero_gamma_or_oi": 823,
   "contracts_skipped_dte_oor": 2218,
-  "strikes_count": 194,
-  "expirations_count": 12,
+  "strikes_count": 209,
+  "expirations_count": 11,
   "by_strike": [
     {
       "strike": 125.0,
-      "gex": -1561851.0
+      "gex": -1524556.0
     },
     {
       "strike": 130.0,
-      "gex": -4648493.0
+      "gex": -4532325.0
     },
     {
       "strike": 135.0,
-      "gex": -1363311.0
+      "gex": -1328173.0
     },
     {
       "strike": 140.0,
-      "gex": -7584243.0
+      "gex": -48403374.0
     },
     {
       "strike": 145.0,
-      "gex": -20394070.0
+      "gex": -19925177.0
     },
     {
       "strike": 150.0,
-      "gex": -33000063.0
+      "gex": -32201732.0
     },
     {
       "strike": 155.0,
-      "gex": -12886596.0
+      "gex": -12581466.0
     },
     {
       "strike": 160.0,
-      "gex": -48658282.0
+      "gex": -47434376.0
     },
     {
       "strike": 165.0,
-      "gex": -15761461.0
+      "gex": -15369596.0
     },
     {
       "strike": 170.0,
-      "gex": -24229871.0
+      "gex": -23690056.0
     },
     {
       "strike": 175.0,
-      "gex": -14329323.0
+      "gex": -13832119.0
     },
     {
       "strike": 180.0,
-      "gex": -27684474.0
+      "gex": -41132015.0
     },
     {
       "strike": 185.0,
-      "gex": -11623879.0
+      "gex": -11361821.0
     },
     {
       "strike": 190.0,
-      "gex": -30606989.0
+      "gex": -29989833.0
     },
     {
       "strike": 195.0,
-      "gex": -15425266.0
+      "gex": -15033676.0
     },
     {
       "strike": 200.0,
-      "gex": -87749565.0
+      "gex": -121098874.0
     },
     {
       "strike": 210.0,
-      "gex": -52364370.0
+      "gex": -51674710.0
     },
     {
       "strike": 215.0,
-      "gex": -34414.0
+      "gex": -33592.0
     },
     {
       "strike": 220.0,
-      "gex": -12598051.0
+      "gex": -12173195.0
     },
     {
       "strike": 225.0,
-      "gex": -423553.0
+      "gex": -426359.0
     },
     {
       "strike": 230.0,
-      "gex": 15536448.0
+      "gex": 10056904.0
     },
     {
       "strike": 235.0,
-      "gex": 2647.0
+      "gex": 2584.0
     },
     {
       "strike": 240.0,
-      "gex": 119052768.0
+      "gex": 112907613.0
     },
     {
       "strike": 245.0,
-      "gex": -34414.0
+      "gex": -38760.0
     },
     {
       "strike": 250.0,
-      "gex": -48385620.0
+      "gex": -53824593.0
     },
     {
       "strike": 255.0,
-      "gex": -272662.0
+      "gex": -248063.0
     },
     {
       "strike": 260.0,
-      "gex": 144013268.0
+      "gex": 140659707.0
     },
     {
       "strike": 265.0,
-      "gex": -243543.0
+      "gex": -193800.0
     },
     {
       "strike": 270.0,
-      "gex": 6655074.0
+      "gex": 6459985.0
     },
     {
       "strike": 275.0,
-      "gex": -2186592.0
+      "gex": -1191221.0
     },
     {
       "strike": 280.0,
-      "gex": -566502.0
+      "gex": -692510.0
     },
     {
       "strike": 285.0,
-      "gex": -1230951.0
+      "gex": -687342.0
     },
     {
       "strike": 290.0,
-      "gex": -29759883.0
+      "gex": -6359209.0
     },
     {
       "strike": 295.0,
-      "gex": 299134.0
+      "gex": -395351.0
     },
     {
       "strike": 300.0,
-      "gex": 56584015.0
+      "gex": 65754892.0
     },
     {
       "strike": 305.0,
-      "gex": -833870.0
+      "gex": -664086.0
     },
     {
       "strike": 310.0,
-      "gex": 84077891.0
+      "gex": 74145121.0
     },
     {
       "strike": 315.0,
-      "gex": -1604206.0
+      "gex": -3031025.0
     },
     {
       "strike": 320.0,
-      "gex": 137683800.0
+      "gex": 128628632.0
     },
     {
       "strike": 325.0,
-      "gex": -5397652.0
+      "gex": -8770075.0
     },
     {
       "strike": 330.0,
-      "gex": 11621232.0
+      "gex": 13289481.0
     },
     {
       "strike": 335.0,
-      "gex": -2615439.0
+      "gex": -4875996.0
     },
     {
       "strike": 340.0,
-      "gex": -22842735.0
+      "gex": -19168067.0
     },
     {
       "strike": 345.0,
-      "gex": -2795449.0
+      "gex": -3713199.0
     },
     {
       "strike": 350.0,
-      "gex": 50257195.0
+      "gex": 45945995.0
     },
     {
       "strike": 355.0,
-      "gex": -18181007.0
+      "gex": -14178374.0
     },
     {
       "strike": 360.0,
-      "gex": 114695468.0
+      "gex": 104879144.0
     },
     {
       "strike": 365.0,
-      "gex": -19356366.0
+      "gex": -19000107.0
     },
     {
       "strike": 370.0,
-      "gex": -5471774.0
+      "gex": -7826917.0
     },
     {
       "strike": 372.5,
-      "gex": -79416.0
+      "gex": -62016.0
     },
     {
       "strike": 375.0,
-      "gex": -28359511.0
+      "gex": -31292166.0
     },
     {
       "strike": 377.5,
-      "gex": -39708.0
+      "gex": -304911.0
     },
     {
       "strike": 380.0,
-      "gex": 701366482.0
+      "gex": 725673340.0
     },
     {
       "strike": 382.5,
-      "gex": -15883.0
+      "gex": 93024.0
     },
     {
       "strike": 385.0,
-      "gex": -27467403.0
+      "gex": -30297328.0
     },
     {
       "strike": 387.5,
-      "gex": -129713.0
+      "gex": -421191.0
     },
     {
       "strike": 390.0,
-      "gex": 10083205.0
+      "gex": 7294615.0
     },
     {
       "strike": 392.5,
-      "gex": -407670.0
+      "gex": -341087.0
     },
     {
       "strike": 395.0,
-      "gex": -36219064.0
+      "gex": -39010556.0
     },
     {
       "strike": 397.5,
-      "gex": -1403019.0
+      "gex": -793286.0
     },
     {
       "strike": 400.0,
-      "gex": 362148288.0
+      "gex": 287761311.0
     },
     {
       "strike": 402.5,
-      "gex": -5175287.0
+      "gex": -4498733.0
     },
     {
       "strike": 405.0,
-      "gex": -84726456.0
+      "gex": -67041721.0
     },
     {
       "strike": 407.5,
-      "gex": -1268011.0
+      "gex": -1625332.0
     },
     {
       "strike": 410.0,
-      "gex": -44300982.0
+      "gex": -65336285.0
     },
     {
       "strike": 412.5,
-      "gex": -32438855.0
+      "gex": -23385145.0
     },
     {
       "strike": 415.0,
-      "gex": -43512115.0
+      "gex": -54124336.0
     },
     {
       "strike": 417.5,
-      "gex": -25577299.0
+      "gex": -22036300.0
     },
     {
       "strike": 420.0,
-      "gex": 119481616.0
+      "gex": 80307946.0
     },
     {
       "strike": 422.5,
-      "gex": -11467694.0
+      "gex": -11121510.0
     },
     {
       "strike": 425.0,
-      "gex": -102359491.0
+      "gex": -164742530.0
     },
     {
       "strike": 427.5,
-      "gex": -12751588.0
+      "gex": -9705481.0
     },
     {
       "strike": 430.0,
-      "gex": -4749086.0
+      "gex": -42028661.0
     },
     {
       "strike": 432.5,
-      "gex": -7679543.0
+      "gex": -7842421.0
     },
     {
       "strike": 435.0,
-      "gex": -7851611.0
+      "gex": -52191509.0
     },
     {
       "strike": 437.5,
-      "gex": -16809754.0
+      "gex": -20080217.0
     },
     {
       "strike": 440.0,
-      "gex": 32642690.0
+      "gex": -16674513.0
     },
     {
       "strike": 442.5,
-      "gex": -7605421.0
+      "gex": -6873424.0
     },
     {
       "strike": 445.0,
-      "gex": 833870.0
+      "gex": -35532500.0
     },
     {
       "strike": 447.5,
-      "gex": -18096296.0
+      "gex": -22989794.0
     },
     {
       "strike": 450.0,
-      "gex": 939802920.0
+      "gex": 690394071.0
     },
     {
       "strike": 452.5,
-      "gex": -9942903.0
+      "gex": -28142277.0
     },
     {
       "strike": 455.0,
-      "gex": -24894320.0
+      "gex": -25581540.0
     },
     {
       "strike": 457.5,
-      "gex": -23920148.0
+      "gex": -42920138.0
     },
     {
       "strike": 460.0,
-      "gex": 379521897.0
+      "gex": 203375823.0
     },
     {
       "strike": 462.5,
-      "gex": -32020597.0
+      "gex": -50809072.0
     },
     {
       "strike": 465.0,
-      "gex": -25902905.0
+      "gex": -236959992.0
     },
     {
       "strike": 467.5,
-      "gex": -16971234.0
+      "gex": -37728895.0
     },
     {
       "strike": 470.0,
-      "gex": 92919557.0
+      "gex": -438589035.0
     },
     {
       "strike": 472.5,
-      "gex": -30268147.0
+      "gex": -35641028.0
     },
     {
       "strike": 475.0,
-      "gex": -13654285.0
+      "gex": -123915427.0
     },
     {
       "strike": 477.5,
-      "gex": -34874284.0
+      "gex": -67835008.0
     },
     {
       "strike": 480.0,
-      "gex": 292555905.0
+      "gex": -126341797.0
     },
     {
       "strike": 482.5,
-      "gex": -44552467.0
+      "gex": -83424243.0
     },
     {
       "strike": 485.0,
-      "gex": -200541692.0
+      "gex": -342534230.0
     },
     {
       "strike": 487.5,
-      "gex": -29860477.0
+      "gex": -101705999.0
     },
     {
       "strike": 490.0,
-      "gex": 430710908.0
+      "gex": 52819419.0
     },
     {
       "strike": 492.5,
-      "gex": 59392700.0
+      "gex": -49509323.0
     },
     {
       "strike": 495.0,
-      "gex": -11676823.0
+      "gex": 5351451.0
     },
     {
       "strike": 497.5,
-      "gex": 23131281.0
+      "gex": -14227470.0
     },
     {
       "strike": 500.0,
-      "gex": 1249864794.0
+      "gex": 318118072.0
     },
     {
       "strike": 502.5,
-      "gex": -165683292.0
+      "gex": -27002736.0
     },
     {
       "strike": 505.0,
-      "gex": 238608506.0
+      "gex": 524633447.0
     },
     {
       "strike": 507.5,
-      "gex": -208091522.0
+      "gex": 137931010.0
     },
     {
       "strike": 510.0,
-      "gex": 1867640471.0
+      "gex": 485080253.0
     },
     {
       "strike": 512.5,
-      "gex": 142414356.0
+      "gex": 227781645.0
     },
     {
       "strike": 515.0,
-      "gex": 2630567715.0
+      "gex": 430935245.0
     },
     {
       "strike": 517.5,
-      "gex": 48607986.0
+      "gex": 146132606.0
     },
     {
       "strike": 520.0,
-      "gex": 3937363308.0
+      "gex": 1684536624.0
     },
     {
       "strike": 522.5,
-      "gex": 805446657.0
+      "gex": 369102855.0
     },
     {
       "strike": 525.0,
-      "gex": 1070717816.0
+      "gex": 733520929.0
     },
     {
       "strike": 527.5,
-      "gex": 203411263.0
+      "gex": 174362740.0
     },
     {
       "strike": 530.0,
-      "gex": 1879208759.0
+      "gex": 1789449360.0
     },
     {
       "strike": 532.5,
-      "gex": 56562838.0
+      "gex": 171856266.0
     },
     {
       "strike": 535.0,
-      "gex": 417985791.0
+      "gex": 537561169.0
     },
     {
       "strike": 537.5,
-      "gex": 40676958.0
+      "gex": 40258625.0
     },
     {
       "strike": 540.0,
-      "gex": 986369910.0
+      "gex": 943235289.0
     },
     {
       "strike": 542.5,
-      "gex": 204462204.0
+      "gex": 209399113.0
     },
     {
       "strike": 545.0,
-      "gex": 221647861.0
+      "gex": 201246612.0
     },
     {
       "strike": 547.5,
-      "gex": 352999546.0
+      "gex": 353640236.0
     },
     {
       "strike": 550.0,
-      "gex": 1960692388.0
+      "gex": 1950843034.0
     },
     {
       "strike": 552.5,
-      "gex": 31472625.0
+      "gex": 28129357.0
     },
     {
       "strike": 555.0,
-      "gex": 220678984.0
+      "gex": 243285609.0
     },
     {
       "strike": 557.5,
-      "gex": 66169546.0
+      "gex": 74742023.0
     },
     {
       "strike": 560.0,
-      "gex": 809417465.0
+      "gex": 802030359.0
     },
     {
       "strike": 562.5,
-      "gex": 39647195.0
+      "gex": 96700803.0
     },
     {
       "strike": 565.0,
-      "gex": 96720944.0
+      "gex": 144936217.0
     },
     {
       "strike": 567.5,
-      "gex": 17593327.0
+      "gex": 23718480.0
     },
     {
       "strike": 570.0,
-      "gex": 937081593.0
+      "gex": 958165606.0
     },
     {
       "strike": 572.5,
-      "gex": 15941471.0
+      "gex": 16956168.0
     },
     {
       "strike": 575.0,
-      "gex": 457757405.0
+      "gex": 372580911.0
     },
     {
       "strike": 577.5,
-      "gex": 15345850.0
+      "gex": 13346328.0
     },
     {
       "strike": 580.0,
-      "gex": 386777887.0
+      "gex": 382679159.0
     },
     {
       "strike": 582.5,
-      "gex": 9323457.0
+      "gex": 11679652.0
     },
     {
       "strike": 585.0,
-      "gex": 143796197.0
+      "gex": 129556286.0
     },
     {
       "strike": 587.5,
-      "gex": 16042065.0
+      "gex": 16082778.0
     },
     {
       "strike": 590.0,
-      "gex": 520035559.0
+      "gex": 500155273.0
     },
     {
       "strike": 592.5,
-      "gex": 8873433.0
+      "gex": 13317905.0
     },
     {
       "strike": 595.0,
-      "gex": 33426263.0
+      "gex": 32881322.0
     },
     {
       "strike": 597.5,
-      "gex": 8846960.0
+      "gex": 16392857.0
     },
     {
       "strike": 600.0,
-      "gex": 1799178445.0
+      "gex": 1703056108.0
     },
     {
       "strike": 602.5,
-      "gex": 2594261.0
+      "gex": 4940596.0
     },
     {
       "strike": 605.0,
-      "gex": 35345487.0
+      "gex": 31028599.0
     },
     {
       "strike": 607.5,
-      "gex": 1720684.0
+      "gex": 8214517.0
     },
     {
       "strike": 610.0,
-      "gex": 396614902.0
+      "gex": 323888130.0
     },
     {
       "strike": 612.5,
-      "gex": 16365024.0
+      "gex": 14930317.0
     },
     {
       "strike": 615.0,
-      "gex": 18461610.0
+      "gex": 18857987.0
     },
     {
       "strike": 617.5,
-      "gex": 1111826.0
+      "gex": 2511642.0
     },
     {
       "strike": 620.0,
-      "gex": 579944465.0
+      "gex": 544289889.0
     },
     {
       "strike": 622.5,
-      "gex": 3669027.0
+      "gex": 2250659.0
     },
     {
       "strike": 625.0,
-      "gex": 12547754.0
+      "gex": 22772738.0
     },
     {
       "strike": 627.5,
-      "gex": 2160120.0
+      "gex": 1976755.0
     },
     {
       "strike": 630.0,
-      "gex": 150038308.0
+      "gex": 144962057.0
     },
     {
       "strike": 632.5,
-      "gex": 889461.0
+      "gex": 816542.0
     },
     {
       "strike": 635.0,
-      "gex": 1686270.0
+      "gex": 1633084.0
     },
     {
       "strike": 637.5,
-      "gex": 254132.0
+      "gex": 609823.0
     },
     {
       "strike": 640.0,
-      "gex": 135573977.0
+      "gex": 118119529.0
+    },
+    {
+      "strike": 642.5,
+      "gex": 741606.0
+    },
+    {
+      "strike": 645.0,
+      "gex": 227391.0
+    },
+    {
+      "strike": 647.5,
+      "gex": 142120.0
     },
     {
       "strike": 650.0,
-      "gex": 523026902.0
+      "gex": 528395742.0
+    },
+    {
+      "strike": 652.5,
+      "gex": 121448.0
+    },
+    {
+      "strike": 655.0,
+      "gex": 2532314.0
     },
     {
       "strike": 660.0,
-      "gex": 83993180.0
+      "gex": 78579254.0
+    },
+    {
+      "strike": 665.0,
+      "gex": 403103.0
+    },
+    {
+      "strike": 667.5,
+      "gex": 93024.0
     },
     {
       "strike": 670.0,
-      "gex": 153312901.0
+      "gex": 138763056.0
+    },
+    {
+      "strike": 675.0,
+      "gex": 77520.0
+    },
+    {
+      "strike": 677.5,
+      "gex": 51680.0
     },
     {
       "strike": 680.0,
-      "gex": 240990991.0
+      "gex": 253582824.0
+    },
+    {
+      "strike": 685.0,
+      "gex": 720934.0
+    },
+    {
+      "strike": 687.5,
+      "gex": 116280.0
     },
     {
       "strike": 690.0,
-      "gex": 54310066.0
+      "gex": 62077869.0
     },
     {
       "strike": 700.0,
-      "gex": 475980767.0
+      "gex": 444403021.0
     },
     {
       "strike": 710.0,
-      "gex": 32470621.0
+      "gex": 30659087.0
     },
     {
       "strike": 720.0,
-      "gex": 100768521.0
+      "gex": 94995367.0
     },
     {
       "strike": 730.0,
-      "gex": 38628021.0
+      "gex": 38049310.0
     },
     {
       "strike": 740.0,
-      "gex": 17656860.0
+      "gex": 17483303.0
     },
     {
       "strike": 750.0,
-      "gex": 163740243.0
+      "gex": 169698631.0
     },
     {
       "strike": 760.0,
-      "gex": 18390136.0
+      "gex": 19315354.0
     },
     {
       "strike": 770.0,
-      "gex": 21151171.0
+      "gex": 20465232.0
     },
     {
       "strike": 780.0,
-      "gex": 12902479.0
+      "gex": 12899297.0
     },
     {
       "strike": 790.0,
-      "gex": 7721898.0
+      "gex": 8072397.0
     },
     {
       "strike": 800.0,
-      "gex": 79789418.0
+      "gex": 77008186.0
     },
     {
       "strike": 810.0,
-      "gex": 17294193.0
+      "gex": 16679681.0
     },
     {
       "strike": 820.0,
-      "gex": 8113685.0
+      "gex": 8736483.0
     },
     {
       "strike": 830.0,
-      "gex": 6888028.0
+      "gex": 6687376.0
     },
     {
       "strike": 840.0,
-      "gex": 12786002.0
+      "gex": 12426427.0
     },
     {
       "strike": 850.0,
-      "gex": 42762956.0
+      "gex": 41951141.0
     },
     {
       "strike": 860.0,
-      "gex": 38834503.0
+      "gex": 35173325.0
     },
     {
       "strike": 870.0,
-      "gex": 8055446.0
+      "gex": 7465158.0
     },
     {
       "strike": 880.0,
-      "gex": 10432636.0
+      "gex": 10129256.0
     },
     {
       "strike": 890.0,
-      "gex": 9201686.0
+      "gex": 8857931.0
     },
     {
       "strike": 900.0,
-      "gex": 50114245.0
+      "gex": 48393038.0
     },
     {
       "strike": 910.0,
-      "gex": 66360145.0
+      "gex": 64992614.0
     },
     {
       "strike": 920.0,
-      "gex": 14564924.0
+      "gex": 13832119.0
     },
     {
       "strike": 930.0,
-      "gex": 111698832.0
+      "gex": 106116877.0
     },
     {
       "strike": 940.0,
-      "gex": 1712742.0
+      "gex": 1705436.0
     },
     {
       "strike": 950.0,
-      "gex": 13556339.0
+      "gex": 13439352.0
     },
     {
       "strike": 960.0,
-      "gex": 5990626.0
+      "gex": 5979362.0
     },
     {
       "strike": 970.0,
-      "gex": 725334.0
+      "gex": 777782.0
     },
     {
       "strike": 980.0,
-      "gex": 502969.0
+      "gex": 511631.0
     },
     {
       "strike": 990.0,
-      "gex": 2115117.0
+      "gex": 2183475.0
     },
     {
       "strike": 1000.0,
-      "gex": 14083133.0
+      "gex": 15142204.0
     },
     {
       "strike": 1010.0,
-      "gex": 48896531.0
+      "gex": 49057124.0
+    },
+    {
+      "strike": 1020.0,
+      "gex": 131784.0
+    },
+    {
+      "strike": 1030.0,
+      "gex": 25840.0
+    },
+    {
+      "strike": 1040.0,
+      "gex": 25840.0
+    },
+    {
+      "strike": 1050.0,
+      "gex": 1976755.0
     }
   ],
   "by_strike_cumulative": [
     {
       "strike": 125.0,
-      "cumulative_gex": -1561851.0
+      "cumulative_gex": -1524556.0
     },
     {
       "strike": 130.0,
-      "cumulative_gex": -6210344.0
+      "cumulative_gex": -6056882.0
     },
     {
       "strike": 135.0,
-      "cumulative_gex": -7573655.0
+      "cumulative_gex": -7385055.0
     },
     {
       "strike": 140.0,
-      "cumulative_gex": -15157898.0
+      "cumulative_gex": -55788428.0
     },
     {
       "strike": 145.0,
-      "cumulative_gex": -35551969.0
+      "cumulative_gex": -75713605.0
     },
     {
       "strike": 150.0,
-      "cumulative_gex": -68552031.0
+      "cumulative_gex": -107915337.0
     },
     {
       "strike": 155.0,
-      "cumulative_gex": -81438627.0
+      "cumulative_gex": -120496803.0
     },
     {
       "strike": 160.0,
-      "cumulative_gex": -130096909.0
+      "cumulative_gex": -167931179.0
     },
     {
       "strike": 165.0,
-      "cumulative_gex": -145858370.0
+      "cumulative_gex": -183300775.0
     },
     {
       "strike": 170.0,
-      "cumulative_gex": -170088241.0
+      "cumulative_gex": -206990830.0
     },
     {
       "strike": 175.0,
-      "cumulative_gex": -184417564.0
+      "cumulative_gex": -220822950.0
     },
     {
       "strike": 180.0,
-      "cumulative_gex": -212102038.0
+      "cumulative_gex": -261954964.0
     },
     {
       "strike": 185.0,
-      "cumulative_gex": -223725917.0
+      "cumulative_gex": -273316786.0
     },
     {
       "strike": 190.0,
-      "cumulative_gex": -254332906.0
+      "cumulative_gex": -303306619.0
     },
     {
       "strike": 195.0,
-      "cumulative_gex": -269758172.0
+      "cumulative_gex": -318340295.0
     },
     {
       "strike": 200.0,
-      "cumulative_gex": -357507737.0
+      "cumulative_gex": -439439169.0
     },
     {
       "strike": 210.0,
-      "cumulative_gex": -409872107.0
+      "cumulative_gex": -491113879.0
     },
     {
       "strike": 215.0,
-      "cumulative_gex": -409906520.0
+      "cumulative_gex": -491147470.0
     },
     {
       "strike": 220.0,
-      "cumulative_gex": -422504571.0
+      "cumulative_gex": -503320666.0
     },
     {
       "strike": 225.0,
-      "cumulative_gex": -422928124.0
+      "cumulative_gex": -503747025.0
     },
     {
       "strike": 230.0,
-      "cumulative_gex": -407391675.0
+      "cumulative_gex": -493690120.0
     },
     {
       "strike": 235.0,
-      "cumulative_gex": -407389028.0
+      "cumulative_gex": -493687536.0
     },
     {
       "strike": 240.0,
-      "cumulative_gex": -288336259.0
+      "cumulative_gex": -380779923.0
     },
     {
       "strike": 245.0,
-      "cumulative_gex": -288370673.0
+      "cumulative_gex": -380818683.0
     },
     {
       "strike": 250.0,
-      "cumulative_gex": -336756293.0
+      "cumulative_gex": -434643276.0
     },
     {
       "strike": 255.0,
-      "cumulative_gex": -337028956.0
+      "cumulative_gex": -434891340.0
     },
     {
       "strike": 260.0,
-      "cumulative_gex": -193015687.0
+      "cumulative_gex": -294231632.0
     },
     {
       "strike": 265.0,
-      "cumulative_gex": -193259230.0
+      "cumulative_gex": -294425432.0
     },
     {
       "strike": 270.0,
-      "cumulative_gex": -186604156.0
+      "cumulative_gex": -287965447.0
     },
     {
       "strike": 275.0,
-      "cumulative_gex": -188790748.0
+      "cumulative_gex": -289156668.0
     },
     {
       "strike": 280.0,
-      "cumulative_gex": -189357250.0
+      "cumulative_gex": -289849179.0
     },
     {
       "strike": 285.0,
-      "cumulative_gex": -190588200.0
+      "cumulative_gex": -290536521.0
     },
     {
       "strike": 290.0,
-      "cumulative_gex": -220348083.0
+      "cumulative_gex": -296895730.0
     },
     {
       "strike": 295.0,
-      "cumulative_gex": -220048949.0
+      "cumulative_gex": -297291081.0
     },
     {
       "strike": 300.0,
-      "cumulative_gex": -163464934.0
+      "cumulative_gex": -231536188.0
     },
     {
       "strike": 305.0,
-      "cumulative_gex": -164298803.0
+      "cumulative_gex": -232200275.0
     },
     {
       "strike": 310.0,
-      "cumulative_gex": -80220912.0
+      "cumulative_gex": -158055154.0
     },
     {
       "strike": 315.0,
-      "cumulative_gex": -81825119.0
+      "cumulative_gex": -161086179.0
     },
     {
       "strike": 320.0,
-      "cumulative_gex": 55858681.0
+      "cumulative_gex": -32457547.0
     },
     {
       "strike": 325.0,
-      "cumulative_gex": 50461029.0
+      "cumulative_gex": -41227622.0
     },
     {
       "strike": 330.0,
-      "cumulative_gex": 62082261.0
+      "cumulative_gex": -27938142.0
     },
     {
       "strike": 335.0,
-      "cumulative_gex": 59466822.0
+      "cumulative_gex": -32814138.0
     },
     {
       "strike": 340.0,
-      "cumulative_gex": 36624087.0
+      "cumulative_gex": -51982205.0
     },
     {
       "strike": 345.0,
-      "cumulative_gex": 33828638.0
+      "cumulative_gex": -55695404.0
     },
     {
       "strike": 350.0,
-      "cumulative_gex": 84085832.0
+      "cumulative_gex": -9749409.0
     },
     {
       "strike": 355.0,
-      "cumulative_gex": 65904826.0
+      "cumulative_gex": -23927783.0
     },
     {
       "strike": 360.0,
-      "cumulative_gex": 180600294.0
+      "cumulative_gex": 80951361.0
     },
     {
       "strike": 365.0,
-      "cumulative_gex": 161243928.0
+      "cumulative_gex": 61951253.0
     },
     {
       "strike": 370.0,
-      "cumulative_gex": 155772155.0
+      "cumulative_gex": 54124336.0
     },
     {
       "strike": 372.5,
-      "cumulative_gex": 155692738.0
+      "cumulative_gex": 54062320.0
     },
     {
       "strike": 375.0,
-      "cumulative_gex": 127333227.0
+      "cumulative_gex": 22770154.0
     },
     {
       "strike": 377.5,
-      "cumulative_gex": 127293519.0
+      "cumulative_gex": 22465243.0
     },
     {
       "strike": 380.0,
-      "cumulative_gex": 828660001.0
+      "cumulative_gex": 748138583.0
     },
     {
       "strike": 382.5,
-      "cumulative_gex": 828644118.0
+      "cumulative_gex": 748231606.0
     },
     {
       "strike": 385.0,
-      "cumulative_gex": 801176715.0
+      "cumulative_gex": 717934278.0
     },
     {
       "strike": 387.5,
-      "cumulative_gex": 801047002.0
+      "cumulative_gex": 717513087.0
     },
     {
       "strike": 390.0,
-      "cumulative_gex": 811130207.0
+      "cumulative_gex": 724807702.0
     },
     {
       "strike": 392.5,
-      "cumulative_gex": 810722537.0
+      "cumulative_gex": 724466615.0
     },
     {
       "strike": 395.0,
-      "cumulative_gex": 774503473.0
+      "cumulative_gex": 685456059.0
     },
     {
       "strike": 397.5,
-      "cumulative_gex": 773100454.0
+      "cumulative_gex": 684662773.0
     },
     {
       "strike": 400.0,
-      "cumulative_gex": 1135248742.0
+      "cumulative_gex": 972424084.0
     },
     {
       "strike": 402.5,
-      "cumulative_gex": 1130073455.0
+      "cumulative_gex": 967925351.0
     },
     {
       "strike": 405.0,
-      "cumulative_gex": 1045346999.0
+      "cumulative_gex": 900883629.0
     },
     {
       "strike": 407.5,
-      "cumulative_gex": 1044078988.0
+      "cumulative_gex": 899258297.0
     },
     {
       "strike": 410.0,
-      "cumulative_gex": 999778005.0
+      "cumulative_gex": 833922012.0
     },
     {
       "strike": 412.5,
-      "cumulative_gex": 967339150.0
+      "cumulative_gex": 810536867.0
     },
     {
       "strike": 415.0,
-      "cumulative_gex": 923827035.0
+      "cumulative_gex": 756412531.0
     },
     {
       "strike": 417.5,
-      "cumulative_gex": 898249737.0
+      "cumulative_gex": 734376231.0
     },
     {
       "strike": 420.0,
-      "cumulative_gex": 1017731352.0
+      "cumulative_gex": 814684177.0
     },
     {
       "strike": 422.5,
-      "cumulative_gex": 1006263659.0
+      "cumulative_gex": 803562668.0
     },
     {
       "strike": 425.0,
-      "cumulative_gex": 903904167.0
+      "cumulative_gex": 638820137.0
     },
     {
       "strike": 427.5,
-      "cumulative_gex": 891152579.0
+      "cumulative_gex": 629114656.0
     },
     {
       "strike": 430.0,
-      "cumulative_gex": 886403492.0
+      "cumulative_gex": 587085996.0
     },
     {
       "strike": 432.5,
-      "cumulative_gex": 878723950.0
+      "cumulative_gex": 579243574.0
     },
     {
       "strike": 435.0,
-      "cumulative_gex": 870872338.0
+      "cumulative_gex": 527052066.0
     },
     {
       "strike": 437.5,
-      "cumulative_gex": 854062584.0
+      "cumulative_gex": 506971849.0
     },
     {
       "strike": 440.0,
-      "cumulative_gex": 886705274.0
+      "cumulative_gex": 490297336.0
     },
     {
       "strike": 442.5,
-      "cumulative_gex": 879099853.0
+      "cumulative_gex": 483423913.0
     },
     {
       "strike": 445.0,
-      "cumulative_gex": 879933722.0
+      "cumulative_gex": 447891413.0
     },
     {
       "strike": 447.5,
-      "cumulative_gex": 861837426.0
+      "cumulative_gex": 424901619.0
     },
     {
       "strike": 450.0,
-      "cumulative_gex": 1801640346.0
+      "cumulative_gex": 1115295690.0
     },
     {
       "strike": 452.5,
-      "cumulative_gex": 1791697443.0
+      "cumulative_gex": 1087153413.0
     },
     {
       "strike": 455.0,
-      "cumulative_gex": 1766803123.0
+      "cumulative_gex": 1061571873.0
     },
     {
       "strike": 457.5,
-      "cumulative_gex": 1742882975.0
+      "cumulative_gex": 1018651735.0
     },
     {
       "strike": 460.0,
-      "cumulative_gex": 2122404872.0
+      "cumulative_gex": 1222027558.0
     },
     {
       "strike": 462.5,
-      "cumulative_gex": 2090384275.0
+      "cumulative_gex": 1171218486.0
     },
     {
       "strike": 465.0,
-      "cumulative_gex": 2064481370.0
+      "cumulative_gex": 934258495.0
     },
     {
       "strike": 467.5,
-      "cumulative_gex": 2047510137.0
+      "cumulative_gex": 896529600.0
     },
     {
       "strike": 470.0,
-      "cumulative_gex": 2140429693.0
+      "cumulative_gex": 457940565.0
     },
     {
       "strike": 472.5,
-      "cumulative_gex": 2110161547.0
+      "cumulative_gex": 422299537.0
     },
     {
       "strike": 475.0,
-      "cumulative_gex": 2096507261.0
+      "cumulative_gex": 298384110.0
     },
     {
       "strike": 477.5,
-      "cumulative_gex": 2061632977.0
+      "cumulative_gex": 230549103.0
     },
     {
       "strike": 480.0,
-      "cumulative_gex": 2354188882.0
+      "cumulative_gex": 104207306.0
     },
     {
       "strike": 482.5,
-      "cumulative_gex": 2309636415.0
+      "cumulative_gex": 20783063.0
     },
     {
       "strike": 485.0,
-      "cumulative_gex": 2109094723.0
+      "cumulative_gex": -321751167.0
     },
     {
       "strike": 487.5,
-      "cumulative_gex": 2079234246.0
+      "cumulative_gex": -423457167.0
     },
     {
       "strike": 490.0,
-      "cumulative_gex": 2509945154.0
+      "cumulative_gex": -370637747.0
     },
     {
       "strike": 492.5,
-      "cumulative_gex": 2569337854.0
+      "cumulative_gex": -420147070.0
     },
     {
       "strike": 495.0,
-      "cumulative_gex": 2557661031.0
+      "cumulative_gex": -414795619.0
     },
     {
       "strike": 497.5,
-      "cumulative_gex": 2580792312.0
+      "cumulative_gex": -429023089.0
     },
     {
       "strike": 500.0,
-      "cumulative_gex": 3830657106.0
+      "cumulative_gex": -110905018.0
     },
     {
       "strike": 502.5,
-      "cumulative_gex": 3664973814.0
+      "cumulative_gex": -137907754.0
     },
     {
       "strike": 505.0,
-      "cumulative_gex": 3903582320.0
+      "cumulative_gex": 386725693.0
     },
     {
       "strike": 507.5,
-      "cumulative_gex": 3695490798.0
+      "cumulative_gex": 524656703.0
     },
     {
       "strike": 510.0,
-      "cumulative_gex": 5563131269.0
+      "cumulative_gex": 1009736956.0
     },
     {
       "strike": 512.5,
-      "cumulative_gex": 5705545626.0
+      "cumulative_gex": 1237518601.0
     },
     {
       "strike": 515.0,
-      "cumulative_gex": 8336113341.0
+      "cumulative_gex": 1668453846.0
     },
     {
       "strike": 517.5,
-      "cumulative_gex": 8384721326.0
+      "cumulative_gex": 1814586453.0
     },
     {
       "strike": 520.0,
-      "cumulative_gex": 12322084635.0
+      "cumulative_gex": 3499123077.0
     },
     {
       "strike": 522.5,
-      "cumulative_gex": 13127531292.0
+      "cumulative_gex": 3868225932.0
     },
     {
       "strike": 525.0,
-      "cumulative_gex": 14198249107.0
+      "cumulative_gex": 4601746861.0
     },
     {
       "strike": 527.5,
-      "cumulative_gex": 14401660370.0
+      "cumulative_gex": 4776109601.0
     },
     {
       "strike": 530.0,
-      "cumulative_gex": 16280869129.0
+      "cumulative_gex": 6565558961.0
     },
     {
       "strike": 532.5,
-      "cumulative_gex": 16337431967.0
+      "cumulative_gex": 6737415226.0
     },
     {
       "strike": 535.0,
-      "cumulative_gex": 16755417758.0
+      "cumulative_gex": 7274976395.0
     },
     {
       "strike": 537.5,
-      "cumulative_gex": 16796094716.0
+      "cumulative_gex": 7315235020.0
     },
     {
       "strike": 540.0,
-      "cumulative_gex": 17782464627.0
+      "cumulative_gex": 8258470309.0
     },
     {
       "strike": 542.5,
-      "cumulative_gex": 17986926830.0
+      "cumulative_gex": 8467869422.0
     },
     {
       "strike": 545.0,
-      "cumulative_gex": 18208574691.0
+      "cumulative_gex": 8669116034.0
     },
     {
       "strike": 547.5,
-      "cumulative_gex": 18561574237.0
+      "cumulative_gex": 9022756270.0
     },
     {
       "strike": 550.0,
-      "cumulative_gex": 20522266625.0
+      "cumulative_gex": 10973599304.0
     },
     {
       "strike": 552.5,
-      "cumulative_gex": 20553739250.0
+      "cumulative_gex": 11001728662.0
     },
     {
       "strike": 555.0,
-      "cumulative_gex": 20774418234.0
+      "cumulative_gex": 11245014270.0
     },
     {
       "strike": 557.5,
-      "cumulative_gex": 20840587780.0
+      "cumulative_gex": 11319756293.0
     },
     {
       "strike": 560.0,
-      "cumulative_gex": 21650005245.0
+      "cumulative_gex": 12121786653.0
     },
     {
       "strike": 562.5,
-      "cumulative_gex": 21689652441.0
+      "cumulative_gex": 12218487456.0
     },
     {
       "strike": 565.0,
-      "cumulative_gex": 21786373384.0
+      "cumulative_gex": 12363423673.0
     },
     {
       "strike": 567.5,
-      "cumulative_gex": 21803966711.0
+      "cumulative_gex": 12387142153.0
     },
     {
       "strike": 570.0,
-      "cumulative_gex": 22741048304.0
+      "cumulative_gex": 13345307759.0
     },
     {
       "strike": 572.5,
-      "cumulative_gex": 22756989775.0
+      "cumulative_gex": 13362263927.0
     },
     {
       "strike": 575.0,
-      "cumulative_gex": 23214747180.0
+      "cumulative_gex": 13734844838.0
     },
     {
       "strike": 577.5,
-      "cumulative_gex": 23230093030.0
+      "cumulative_gex": 13748191166.0
     },
     {
       "strike": 580.0,
-      "cumulative_gex": 23616870917.0
+      "cumulative_gex": 14130870325.0
     },
     {
       "strike": 582.5,
-      "cumulative_gex": 23626194374.0
+      "cumulative_gex": 14142549978.0
     },
     {
       "strike": 585.0,
-      "cumulative_gex": 23769990571.0
+      "cumulative_gex": 14272106263.0
     },
     {
       "strike": 587.5,
-      "cumulative_gex": 23786032636.0
+      "cumulative_gex": 14288189041.0
     },
     {
       "strike": 590.0,
-      "cumulative_gex": 24306068196.0
+      "cumulative_gex": 14788344314.0
     },
     {
       "strike": 592.5,
-      "cumulative_gex": 24314941628.0
+      "cumulative_gex": 14801662219.0
     },
     {
       "strike": 595.0,
-      "cumulative_gex": 24348367891.0
+      "cumulative_gex": 14834543541.0
     },
     {
       "strike": 597.5,
-      "cumulative_gex": 24357214851.0
+      "cumulative_gex": 14850936398.0
     },
     {
       "strike": 600.0,
-      "cumulative_gex": 26156393296.0
+      "cumulative_gex": 16553992507.0
     },
     {
       "strike": 602.5,
-      "cumulative_gex": 26158987558.0
+      "cumulative_gex": 16558933103.0
     },
     {
       "strike": 605.0,
-      "cumulative_gex": 26194333044.0
+      "cumulative_gex": 16589961702.0
     },
     {
       "strike": 607.5,
-      "cumulative_gex": 26196053728.0
+      "cumulative_gex": 16598176218.0
     },
     {
       "strike": 610.0,
-      "cumulative_gex": 26592668630.0
+      "cumulative_gex": 16922064348.0
     },
     {
       "strike": 612.5,
-      "cumulative_gex": 26609033653.0
+      "cumulative_gex": 16936994665.0
     },
     {
       "strike": 615.0,
-      "cumulative_gex": 26627495264.0
+      "cumulative_gex": 16955852652.0
     },
     {
       "strike": 617.5,
-      "cumulative_gex": 26628607090.0
+      "cumulative_gex": 16958364294.0
     },
     {
       "strike": 620.0,
-      "cumulative_gex": 27208551555.0
+      "cumulative_gex": 17502654183.0
     },
     {
       "strike": 622.5,
-      "cumulative_gex": 27212220582.0
+      "cumulative_gex": 17504904842.0
     },
     {
       "strike": 625.0,
-      "cumulative_gex": 27224768335.0
+      "cumulative_gex": 17527677580.0
     },
     {
       "strike": 627.5,
-      "cumulative_gex": 27226928455.0
+      "cumulative_gex": 17529654335.0
     },
     {
       "strike": 630.0,
-      "cumulative_gex": 27376966763.0
+      "cumulative_gex": 17674616393.0
     },
     {
       "strike": 632.5,
-      "cumulative_gex": 27377856224.0
+      "cumulative_gex": 17675432935.0
     },
     {
       "strike": 635.0,
-      "cumulative_gex": 27379542494.0
+      "cumulative_gex": 17677066019.0
     },
     {
       "strike": 637.5,
-      "cumulative_gex": 27379796625.0
+      "cumulative_gex": 17677675841.0
     },
     {
       "strike": 640.0,
-      "cumulative_gex": 27515370603.0
+      "cumulative_gex": 17795795370.0
+    },
+    {
+      "strike": 642.5,
+      "cumulative_gex": 17796536976.0
+    },
+    {
+      "strike": 645.0,
+      "cumulative_gex": 17796764368.0
+    },
+    {
+      "strike": 647.5,
+      "cumulative_gex": 17796906487.0
     },
     {
       "strike": 650.0,
-      "cumulative_gex": 28038397504.0
+      "cumulative_gex": 18325302230.0
+    },
+    {
+      "strike": 652.5,
+      "cumulative_gex": 18325423677.0
+    },
+    {
+      "strike": 655.0,
+      "cumulative_gex": 18327955991.0
     },
     {
       "strike": 660.0,
-      "cumulative_gex": 28122390684.0
+      "cumulative_gex": 18406535246.0
+    },
+    {
+      "strike": 665.0,
+      "cumulative_gex": 18406938349.0
+    },
+    {
+      "strike": 667.5,
+      "cumulative_gex": 18407031372.0
     },
     {
       "strike": 670.0,
-      "cumulative_gex": 28275703585.0
+      "cumulative_gex": 18545794428.0
+    },
+    {
+      "strike": 675.0,
+      "cumulative_gex": 18545871948.0
+    },
+    {
+      "strike": 677.5,
+      "cumulative_gex": 18545923628.0
     },
     {
       "strike": 680.0,
-      "cumulative_gex": 28516694576.0
+      "cumulative_gex": 18799506452.0
+    },
+    {
+      "strike": 685.0,
+      "cumulative_gex": 18800227387.0
+    },
+    {
+      "strike": 687.5,
+      "cumulative_gex": 18800343666.0
     },
     {
       "strike": 690.0,
-      "cumulative_gex": 28571004642.0
+      "cumulative_gex": 18862421535.0
     },
     {
       "strike": 700.0,
-      "cumulative_gex": 29046985409.0
+      "cumulative_gex": 19306824556.0
     },
     {
       "strike": 710.0,
-      "cumulative_gex": 29079456031.0
+      "cumulative_gex": 19337483644.0
     },
     {
       "strike": 720.0,
-      "cumulative_gex": 29180224551.0
+      "cumulative_gex": 19432479011.0
     },
     {
       "strike": 730.0,
-      "cumulative_gex": 29218852573.0
+      "cumulative_gex": 19470528321.0
     },
     {
       "strike": 740.0,
-      "cumulative_gex": 29236509433.0
+      "cumulative_gex": 19488011624.0
     },
     {
       "strike": 750.0,
-      "cumulative_gex": 29400249675.0
+      "cumulative_gex": 19657710255.0
     },
     {
       "strike": 760.0,
-      "cumulative_gex": 29418639811.0
+      "cumulative_gex": 19677025609.0
     },
     {
       "strike": 770.0,
-      "cumulative_gex": 29439790983.0
+      "cumulative_gex": 19697490841.0
     },
     {
       "strike": 780.0,
-      "cumulative_gex": 29452693462.0
+      "cumulative_gex": 19710390138.0
     },
     {
       "strike": 790.0,
-      "cumulative_gex": 29460415360.0
+      "cumulative_gex": 19718462535.0
     },
     {
       "strike": 800.0,
-      "cumulative_gex": 29540204778.0
+      "cumulative_gex": 19795470721.0
     },
     {
       "strike": 810.0,
-      "cumulative_gex": 29557498971.0
+      "cumulative_gex": 19812150401.0
     },
     {
       "strike": 820.0,
-      "cumulative_gex": 29565612655.0
+      "cumulative_gex": 19820886885.0
     },
     {
       "strike": 830.0,
-      "cumulative_gex": 29572500684.0
+      "cumulative_gex": 19827574261.0
     },
     {
       "strike": 840.0,
-      "cumulative_gex": 29585286686.0
+      "cumulative_gex": 19840000688.0
     },
     {
       "strike": 850.0,
-      "cumulative_gex": 29628049642.0
+      "cumulative_gex": 19881951828.0
     },
     {
       "strike": 860.0,
-      "cumulative_gex": 29666884145.0
+      "cumulative_gex": 19917125153.0
     },
     {
       "strike": 870.0,
-      "cumulative_gex": 29674939591.0
+      "cumulative_gex": 19924590311.0
     },
     {
       "strike": 880.0,
-      "cumulative_gex": 29685372228.0
+      "cumulative_gex": 19934719568.0
     },
     {
       "strike": 890.0,
-      "cumulative_gex": 29694573914.0
+      "cumulative_gex": 19943577499.0
     },
     {
       "strike": 900.0,
-      "cumulative_gex": 29744688159.0
+      "cumulative_gex": 19991970536.0
     },
     {
       "strike": 910.0,
-      "cumulative_gex": 29811048304.0
+      "cumulative_gex": 20056963150.0
     },
     {
       "strike": 920.0,
-      "cumulative_gex": 29825613228.0
+      "cumulative_gex": 20070795270.0
     },
     {
       "strike": 930.0,
-      "cumulative_gex": 29937312060.0
+      "cumulative_gex": 20176912147.0
     },
     {
       "strike": 940.0,
-      "cumulative_gex": 29939024802.0
+      "cumulative_gex": 20178617583.0
     },
     {
       "strike": 950.0,
-      "cumulative_gex": 29952581141.0
+      "cumulative_gex": 20192056935.0
     },
     {
       "strike": 960.0,
-      "cumulative_gex": 29958571767.0
+      "cumulative_gex": 20198036297.0
     },
     {
       "strike": 970.0,
-      "cumulative_gex": 29959297101.0
+      "cumulative_gex": 20198814079.0
     },
     {
       "strike": 980.0,
-      "cumulative_gex": 29959800070.0
+      "cumulative_gex": 20199325710.0
     },
     {
       "strike": 990.0,
-      "cumulative_gex": 29961915187.0
+      "cumulative_gex": 20201509185.0
     },
     {
       "strike": 1000.0,
-      "cumulative_gex": 29975998320.0
+      "cumulative_gex": 20216651389.0
     },
     {
       "strike": 1010.0,
-      "cumulative_gex": 30024894851.0
+      "cumulative_gex": 20265708513.0
+    },
+    {
+      "strike": 1020.0,
+      "cumulative_gex": 20265840296.0
+    },
+    {
+      "strike": 1030.0,
+      "cumulative_gex": 20265866136.0
+    },
+    {
+      "strike": 1040.0,
+      "cumulative_gex": 20265891976.0
+    },
+    {
+      "strike": 1050.0,
+      "cumulative_gex": 20267868732.0
     }
   ],
   "top_strikes": [
     {
-      "strike": 520.0,
-      "gex": 3937363308.0
-    },
-    {
-      "strike": 515.0,
-      "gex": 2630567715.0
-    },
-    {
       "strike": 550.0,
-      "gex": 1960692388.0
+      "gex": 1950843034.0
     },
     {
       "strike": 530.0,
-      "gex": 1879208759.0
-    },
-    {
-      "strike": 510.0,
-      "gex": 1867640471.0
+      "gex": 1789449360.0
     },
     {
       "strike": 600.0,
-      "gex": 1799178445.0
+      "gex": 1703056108.0
     },
     {
-      "strike": 500.0,
-      "gex": 1249864794.0
+      "strike": 520.0,
+      "gex": 1684536624.0
     },
     {
-      "strike": 525.0,
-      "gex": 1070717816.0
+      "strike": 570.0,
+      "gex": 958165606.0
     },
     {
       "strike": 540.0,
-      "gex": 986369910.0
+      "gex": 943235289.0
+    },
+    {
+      "strike": 560.0,
+      "gex": 802030359.0
+    },
+    {
+      "strike": 525.0,
+      "gex": 733520929.0
+    },
+    {
+      "strike": 380.0,
+      "gex": 725673340.0
     },
     {
       "strike": 450.0,
-      "gex": 939802920.0
+      "gex": 690394071.0
     }
   ],
-  "data_computed": "2026-05-29T21:00:38Z"
+  "data_computed": "2026-06-01T21:00:38Z"
 }
