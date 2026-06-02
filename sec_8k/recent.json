@@ -1,6 +1,18 @@
 {
-  "fetched_utc": "2026-06-02T12:15:03.147522Z",
+  "fetched_utc": "2026-06-02T13:15:02.866644Z",
   "filings": [
+    {
+      "title": "8-K - VERIZON COMMUNICATIONS INC (0000732712) (Filer)",
+      "filer": "VERIZON COMMUNICATIONS INC",
+      "ticker": "VZ",
+      "cik": "0000732712",
+      "updated": "2026-06-02T08:15:58-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/732712/000119312526252577/0001193125-26-252577-index.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - Philip Morris International Inc. (0001413329) (Filer)",
       "filer": "Philip Morris International Inc.",
