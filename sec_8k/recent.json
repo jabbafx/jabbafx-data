@@ -1,6 +1,52 @@
 {
-  "fetched_utc": "2026-06-02T20:15:02.797205Z",
+  "fetched_utc": "2026-06-02T21:15:03.091918Z",
   "filings": [
+    {
+      "title": "8-K - SHOPIFY INC. (0001594805) (Filer)",
+      "filer": "SHOPIFY INC.",
+      "ticker": "SHOP",
+      "cik": "0001594805",
+      "updated": "2026-06-02T17:01:47-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000028/0001594805-26-000028-index.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ]
+    },
+    {
+      "title": "8-K - TEXAS INSTRUMENTS INC (0000097476) (Filer)",
+      "filer": "TEXAS INSTRUMENTS INC",
+      "ticker": "TXN",
+      "cik": "0000097476",
+      "updated": "2026-06-02T16:16:52-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/97476/000095010326008325/0000950103-26-008325-index.htm",
+      "items": [
+        "5.02"
+      ]
+    },
+    {
+      "title": "8-K - Salesforce, Inc. (0001108524) (Filer)",
+      "filer": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "cik": "0001108524",
+      "updated": "2026-06-02T16:15:12-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000138/0001108524-26-000138-index.htm",
+      "items": [
+        "5.02"
+      ]
+    },
+    {
+      "title": "8-K - Mastercard Inc (0001141391) (Filer)",
+      "filer": "Mastercard Inc",
+      "ticker": "MA",
+      "cik": "0001141391",
+      "updated": "2026-06-02T16:15:00-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000037/0001141391-26-000037-index.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - VERIZON COMMUNICATIONS INC (0000732712) (Filer)",
       "filer": "VERIZON COMMUNICATIONS INC",
