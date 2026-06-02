@@ -1,14 +1,14 @@
 {
-  "run_utc": "2026-06-01T06:01:25.040271Z",
-  "duration_s": 81.8,
+  "run_utc": "2026-06-02T06:01:20.112522Z",
+  "duration_s": 76.5,
   "total": 18,
-  "pass_count": 10,
-  "delta_count": 8,
+  "pass_count": 15,
+  "delta_count": 3,
   "fail_count": 0,
   "modules": [
     {
       "status": "ok",
-      "detail": "M5A Net Liquidity (WALCL $M) = 6704383.0 on 2026-05-27 (5d old)",
+      "detail": "M5A Net Liquidity (WALCL $M) = 6704383.0 on 2026-05-27 (6d old)",
       "value": 6704383.0,
       "as_of": "2026-05-27",
       "id": "liquidity",
@@ -18,9 +18,9 @@
     },
     {
       "status": "ok",
-      "detail": "M3B US 10Y Yield (%) = 4.45 on 2026-05-28 (4d old)",
+      "detail": "M3B US 10Y Yield (%) = 4.45 on 2026-05-29 (4d old)",
       "value": 4.45,
-      "as_of": "2026-05-28",
+      "as_of": "2026-05-29",
       "id": "yields",
       "label": "M3B US 10Y Yield (%)",
       "source_type": "fred",
@@ -28,8 +28,8 @@
     },
     {
       "status": "ok",
-      "detail": "M5C GDPNow (% real GDP) = 3.8233 on 2026-04-01 (61d old)",
-      "value": 3.8233,
+      "detail": "M5C GDPNow (% real GDP) = 3.0164 on 2026-04-01 (62d old)",
+      "value": 3.0164,
       "as_of": "2026-04-01",
       "id": "growth",
       "label": "M5C GDPNow (% real GDP)",
@@ -38,7 +38,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5C CFNAI = 0.14 on 2026-04-01 (61d old)",
+      "detail": "M5C CFNAI = 0.14 on 2026-04-01 (62d old)",
       "value": 0.14,
       "as_of": "2026-04-01",
       "id": "growth_cfnai",
@@ -48,7 +48,7 @@
     },
     {
       "status": "delta",
-      "detail": "M4C CPI (level) latest obs 2026-04-01 is 61d old (max expected 50d)",
+      "detail": "M4C CPI (level) latest obs 2026-04-01 is 62d old (max expected 50d)",
       "value": 332.407,
       "as_of": "2026-04-01",
       "id": "events_cpi",
@@ -58,7 +58,7 @@
     },
     {
       "status": "delta",
-      "detail": "M4C Unemployment Rate (%) latest obs 2026-04-01 is 61d old (max expected 50d)",
+      "detail": "M4C Unemployment Rate (%) latest obs 2026-04-01 is 62d old (max expected 50d)",
       "value": 4.3,
       "as_of": "2026-04-01",
       "id": "events_unrate",
@@ -68,7 +68,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5G German Bund 10Y (%) = 2.9963157895 on 2026-04-01 (61d old)",
+      "detail": "M5G German Bund 10Y (%) = 2.9963157895 on 2026-04-01 (62d old)",
       "value": 2.9963157895,
       "as_of": "2026-04-01",
       "id": "intl_de10",
@@ -78,7 +78,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5A NFCI (financial conditions) = -0.51 on 2026-05-22 (10d old)",
+      "detail": "M5A NFCI (financial conditions) = -0.51 on 2026-05-22 (11d old)",
       "value": -0.51,
       "as_of": "2026-05-22",
       "id": "liq_nfci",
@@ -88,9 +88,9 @@
     },
     {
       "status": "ok",
-      "detail": "M5A HY OAS (%) = 2.72 on 2026-05-28 (4d old)",
-      "value": 2.72,
-      "as_of": "2026-05-28",
+      "detail": "M5A HY OAS (%) = 2.74 on 2026-05-31 (2d old)",
+      "value": 2.74,
+      "as_of": "2026-05-31",
       "id": "liq_hyoas",
       "label": "M5A HY OAS (%)",
       "source_type": "fred",
@@ -98,7 +98,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1A 13F Holdings 7KB, 0 records, 374.2h old",
+      "detail": "M1A 13F Holdings 7KB, 0 records, 398.2h old",
       "value": 0,
       "id": "institutional",
       "label": "M1A 13F Holdings",
@@ -106,8 +106,8 @@
       "source_ref": "13f/funds.json"
     },
     {
-      "status": "delta",
-      "detail": "M1B Insider Transactions 13KB, 0 records, 56h old (max 30h)",
+      "status": "ok",
+      "detail": "M1B Insider Transactions 14KB, 0 records, 8.0h old",
       "value": 0,
       "id": "insider",
       "label": "M1B Insider Transactions",
@@ -116,7 +116,7 @@
     },
     {
       "status": "ok",
-      "detail": "M1C COT Report 3KB, 0 records, 55.5h old",
+      "detail": "M1C COT Report 3KB, 0 records, 79.5h old",
       "value": 0,
       "id": "cot",
       "label": "M1C COT Report",
@@ -124,9 +124,9 @@
       "source_ref": "cot/latest.json"
     },
     {
-      "status": "delta",
-      "detail": "M2B Options Anomalies 1749KB, 2705 records, 57h old (max 30h)",
-      "value": 2705,
+      "status": "ok",
+      "detail": "M2B Options Anomalies 1844KB, 2852 records, 8.5h old",
+      "value": 2852,
       "id": "anomalies",
       "label": "M2B Options Anomalies",
       "source_type": "github",
@@ -134,7 +134,7 @@
     },
     {
       "status": "ok",
-      "detail": "M5H Historical Archive 649KB, 2315 records, 18.0h old",
+      "detail": "M5H Historical Archive 649KB, 2315 records, 42.0h old",
       "value": 2315,
       "id": "history",
       "label": "M5H Historical Archive",
@@ -142,8 +142,8 @@
       "source_ref": "historical_state/archive.json"
     },
     {
-      "status": "delta",
-      "detail": "M3A VIX Term Structure 5KB, 0 records, 55h old (max 24h)",
+      "status": "ok",
+      "detail": "M3A VIX Term Structure 5KB, 0 records, 6.5h old",
       "value": 0,
       "id": "vix_struct",
       "label": "M3A VIX Term Structure",
@@ -151,8 +151,8 @@
       "source_ref": "vix_structure/recent.json"
     },
     {
-      "status": "delta",
-      "detail": "M2A GEX 4KB, 0 records, 57h old (max 36h)",
+      "status": "ok",
+      "detail": "M2A GEX 4KB, 0 records, 9.0h old",
       "value": 0,
       "id": "gex",
       "label": "M2A GEX",
@@ -161,7 +161,7 @@
     },
     {
       "status": "delta",
-      "detail": "M6C NAAIM Exposure Index 1KB, 0 records, 104h old (max 48h)",
+      "detail": "M6C NAAIM Exposure Index 1KB, 0 records, 128h old (max 48h)",
       "value": 0,
       "id": "naaim",
       "label": "M6C NAAIM Exposure Index",
@@ -169,9 +169,9 @@
       "source_ref": "sentiment_naaim/latest.json"
     },
     {
-      "status": "delta",
-      "detail": "M6E SEC 8-K Live Feed 5KB, 12 records, 56h old (max 48h)",
-      "value": 12,
+      "status": "ok",
+      "detail": "M6E SEC 8-K Live Feed 5KB, 14 records, 7.8h old",
+      "value": 14,
       "id": "sec_8k",
       "label": "M6E SEC 8-K Live Feed",
       "source_type": "github",
