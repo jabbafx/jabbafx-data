@@ -1,6 +1,31 @@
 {
-  "fetched_utc": "2026-06-01T22:15:02.576550Z",
+  "fetched_utc": "2026-06-02T12:15:03.147522Z",
   "filings": [
+    {
+      "title": "8-K - Philip Morris International Inc. (0001413329) (Filer)",
+      "filer": "Philip Morris International Inc.",
+      "ticker": "PM",
+      "cik": "0001413329",
+      "updated": "2026-06-02T06:05:17-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026039666/0001628280-26-039666-index.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ]
+    },
+    {
+      "title": "8-K - HONEYWELL INTERNATIONAL INC (0000773840) (Filer)",
+      "filer": "HONEYWELL INTERNATIONAL INC",
+      "ticker": "HON",
+      "cik": "0000773840",
+      "updated": "2026-06-01T20:12:40-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000068/0000773840-26-000068-index.htm",
+      "items": [
+        "5.02",
+        "7.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - Salesforce, Inc. (0001108524) (Filer)",
       "filer": "Salesforce, Inc.",
@@ -135,30 +160,6 @@
       "items": [
         "2.02",
         "9.01"
-      ]
-    },
-    {
-      "title": "8-K - HOME DEPOT, INC. (0000354950) (Filer)",
-      "filer": "HOME DEPOT, INC.",
-      "ticker": "HD",
-      "cik": "0000354950",
-      "updated": "2026-05-26T09:19:39-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000105/0000354950-26-000105-index.htm",
-      "items": [
-        "5.03",
-        "5.07",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - THERMO FISHER SCIENTIFIC INC. (0000097745) (Filer)",
-      "filer": "THERMO FISHER SCIENTIFIC INC.",
-      "ticker": "TMO",
-      "cik": "0000097745",
-      "updated": "2026-05-26T07:31:03-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000117/0000097745-26-000117-index.htm",
-      "items": [
-        "5.07"
       ]
     }
   ],
