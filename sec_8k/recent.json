@@ -1,6 +1,30 @@
 {
-  "fetched_utc": "2026-06-03T19:15:02.530157Z",
+  "fetched_utc": "2026-06-03T20:15:02.839172Z",
   "filings": [
+    {
+      "title": "8-K - Robinhood Markets, Inc. (0001783879) (Filer)",
+      "filer": "Robinhood Markets, Inc.",
+      "ticker": "HOOD",
+      "cik": "0001783879",
+      "updated": "2026-06-03T16:06:22-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000068/0001783879-26-000068-index.htm",
+      "items": [
+        "5.07"
+      ]
+    },
+    {
+      "title": "8-K - CrowdStrike Holdings, Inc. (0001535527) (Filer)",
+      "filer": "CrowdStrike Holdings, Inc.",
+      "ticker": "CRWD",
+      "cik": "0001535527",
+      "updated": "2026-06-03T16:06:20-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000022/0001535527-26-000022-index.htm",
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - Medtronic plc (0001613103) (Filer)",
       "filer": "Medtronic plc",
