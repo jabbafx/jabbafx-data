@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-06-03T16:15:02.098687Z",
+  "fetched_utc": "2026-06-03T17:15:03.331409Z",
   "filings": [
     {
       "title": "8-K - Medtronic plc (0001613103) (Filer)",
@@ -207,29 +207,6 @@
       "link": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000047/0000051143-26-000047-index.htm",
       "items": [
         "7.01"
-      ]
-    },
-    {
-      "title": "8-K - HONEYWELL INTERNATIONAL INC (0000773840) (Filer)",
-      "filer": "HONEYWELL INTERNATIONAL INC",
-      "ticker": "HON",
-      "cik": "0000773840",
-      "updated": "2026-05-27T16:36:23-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/773840/000119312526242011/0001193125-26-242011-index.htm",
-      "items": [
-        "5.07"
-      ]
-    },
-    {
-      "title": "8-K - Salesforce, Inc. (0001108524) (Filer)",
-      "filer": "Salesforce, Inc.",
-      "ticker": "CRM",
-      "cik": "0001108524",
-      "updated": "2026-05-27T16:18:26-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000125/0001108524-26-000125-index.htm",
-      "items": [
-        "2.02",
-        "9.01"
       ]
     }
   ],
