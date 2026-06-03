@@ -1,6 +1,18 @@
 {
-  "fetched_utc": "2026-06-02T22:15:03.585616Z",
+  "fetched_utc": "2026-06-03T12:15:02.484533Z",
   "filings": [
+    {
+      "title": "8-K - Medtronic plc (0001613103) (Filer)",
+      "filer": "Medtronic plc",
+      "ticker": "MDT",
+      "cik": "0001613103",
+      "updated": "2026-06-03T06:47:08-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026040034/0001628280-26-040034-index.htm",
+      "items": [
+        "2.02",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - SHOPIFY INC. (0001594805) (Filer)",
       "filer": "SHOPIFY INC.",
