@@ -1,13 +1,13 @@
 {
-  "data_computed": "2026-06-02T22:00:34Z",
+  "data_computed": "2026-06-03T22:00:22Z",
   "window_days": 30,
   "source_quarter": "2026-Q1",
   "tickers_scanned": 30,
   "issuers_resolved": 30,
   "tickers_unresolved": 0,
   "unresolved_tickers": [],
-  "total_form4_filings": 386,
-  "interesting_count": 22,
+  "total_form4_filings": 389,
+  "interesting_count": 23,
   "filter_rule": "reporting_owner in {director, officer} AND transaction_code in {P, S} AND (code==P OR NOT aff_10b5_one) AND value >= $250,000",
   "interesting": [
     {
@@ -28,6 +28,25 @@
       "funds_holding_13f": 13,
       "signal_strength_13f": "high",
       "name_13f": "TAIWAN SEMICONDUCTOR MANUFAC"
+    },
+    {
+      "accession": "0000789019-26-000083",
+      "filing_date": "2026-06-01",
+      "transaction_date": "2026-06-01",
+      "issuer_ticker": "MSFT",
+      "issuer_name": "MICROSOFT CORP",
+      "issuer_cik": "0000789019",
+      "reporting_owner": "Althoff Judson",
+      "reporting_role": "officer (CEO Microsoft Commercial)",
+      "transaction_code": "S",
+      "shares": 15500,
+      "price_per_share": 460.988,
+      "value": 7145314.0,
+      "is_pre_planned": false,
+      "ownership_type": "D",
+      "funds_holding_13f": 10,
+      "signal_strength_13f": "high",
+      "name_13f": "MICROSOFT CORP"
     },
     {
       "accession": "0000789019-26-000075",
