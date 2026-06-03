@@ -1,11 +1,7 @@
 {
-  "fetched_utc": "2026-05-27T22:00:04.348399Z",
+  "fetched_utc": "2026-06-03T22:00:02.909010Z",
   "rows_total": 10,
   "history": [
-    {
-      "date": "2026-03-18",
-      "value": 60.24
-    },
     {
       "date": "2026-03-25",
       "value": 68.52
@@ -41,16 +37,20 @@
     {
       "date": "2026-05-20",
       "value": 82.02
+    },
+    {
+      "date": "2026-05-27",
+      "value": 98.39
     }
   ],
   "latest": {
-    "date": "2026-05-20",
-    "value": 82.02
+    "date": "2026-05-27",
+    "value": 98.39
   },
-  "z_score": 0.24,
-  "mean": 79.0,
-  "sd": 12.65,
-  "trend_4w": -12.13,
+  "z_score": 1.29,
+  "mean": 82.81,
+  "sd": 12.11,
+  "trend_4w": 4.6,
   "baseline_n": 10,
-  "extreme": "normal"
+  "extreme": "complacent"
 }
