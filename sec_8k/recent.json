@@ -1,6 +1,20 @@
 {
-  "fetched_utc": "2026-06-04T20:15:02.955209Z",
+  "fetched_utc": "2026-06-04T21:15:02.929299Z",
   "filings": [
+    {
+      "title": "8-K - Alphabet Inc. (0001652044) (Filer)",
+      "filer": "Alphabet Inc.",
+      "ticker": "GOOG",
+      "cik": "0001652044",
+      "updated": "2026-06-04T17:07:39-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257724/0001193125-26-257724-index.htm",
+      "items": [
+        "1.01",
+        "7.01",
+        "8.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - DANAHER CORP /DE/ (0000313616) (Filer)",
       "filer": "DANAHER CORP /DE/",
