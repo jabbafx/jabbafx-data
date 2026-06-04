@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-06-03T22:15:03.108804Z",
+  "fetched_utc": "2026-06-04T12:15:02.691494Z",
   "filings": [
     {
       "title": "8-K - DANAHER CORP /DE/ (0000313616) (Filer)",
@@ -245,17 +245,6 @@
       "items": [
         "5.02",
         "5.07"
-      ]
-    },
-    {
-      "title": "8-K - INTERNATIONAL BUSINESS MACHINES CORP (0000051143) (Filer)",
-      "filer": "INTERNATIONAL BUSINESS MACHINES CORP",
-      "ticker": "IBM",
-      "cik": "0000051143",
-      "updated": "2026-05-28T06:49:17-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000047/0000051143-26-000047-index.htm",
-      "items": [
-        "7.01"
       ]
     }
   ],
