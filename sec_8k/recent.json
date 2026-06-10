@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-06-10T16:15:02.303388Z",
+  "fetched_utc": "2026-06-10T17:15:02.927026Z",
   "filings": [
     {
       "title": "8-K - AMAZON COM INC (0001018724) (Filer)",
@@ -48,31 +48,6 @@
       "items": [
         "1.01",
         "7.01",
-        "8.01",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - DANAHER CORP /DE/ (0000313616) (Filer)",
-      "filer": "DANAHER CORP /DE/",
-      "ticker": "DHR",
-      "cik": "0000313616",
-      "updated": "2026-06-03T16:30:18-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/313616/000119312526255555/0001193125-26-255555-index.htm",
-      "items": [
-        "2.03",
-        "8.01"
-      ]
-    },
-    {
-      "title": "8-K - Broadcom Inc. (0001730168) (Filer)",
-      "filer": "Broadcom Inc.",
-      "ticker": "AVGO",
-      "cik": "0001730168",
-      "updated": "2026-06-03T16:21:35-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/0001730168-26-000051-index.htm",
-      "items": [
-        "2.02",
         "8.01",
         "9.01"
       ]
