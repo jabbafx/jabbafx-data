@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-06-09T22:15:03.513688Z",
+  "fetched_utc": "2026-06-10T12:15:03.559042Z",
   "filings": [
     {
       "title": "8-K - Walmart Inc. (0000104169) (Filer)",
@@ -85,18 +85,6 @@
       "items": [
         "2.02",
         "8.01",
-        "9.01"
-      ]
-    },
-    {
-      "title": "8-K - Medtronic plc (0001613103) (Filer)",
-      "filer": "Medtronic plc",
-      "ticker": "MDT",
-      "cik": "0001613103",
-      "updated": "2026-06-03T06:47:08-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026040034/0001628280-26-040034-index.htm",
-      "items": [
-        "2.02",
         "9.01"
       ]
     }
