@@ -1,6 +1,18 @@
 {
-  "fetched_utc": "2026-06-11T12:15:02.683077Z",
+  "fetched_utc": "2026-06-11T13:15:03.146970Z",
   "filings": [
+    {
+      "title": "8-K - Broadcom Inc. (0001730168) (Filer)",
+      "filer": "Broadcom Inc.",
+      "ticker": "AVGO",
+      "cik": "0001730168",
+      "updated": "2026-06-11T09:07:29-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/0001193125-26-266777-index.htm",
+      "items": [
+        "8.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - GENERAL ELECTRIC CO (0000040545) (Filer)",
       "filer": "GENERAL ELECTRIC CO",
