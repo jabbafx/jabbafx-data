@@ -1,6 +1,30 @@
 {
-  "fetched_utc": "2026-06-10T22:15:02.583454Z",
+  "fetched_utc": "2026-06-11T12:15:02.683077Z",
   "filings": [
+    {
+      "title": "8-K - GENERAL ELECTRIC CO (0000040545) (Filer)",
+      "filer": "GENERAL ELECTRIC CO",
+      "ticker": "GE",
+      "cik": "0000040545",
+      "updated": "2026-06-11T06:33:47-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000039/0000040545-26-000039-index.htm",
+      "items": [
+        "5.02",
+        "9.01"
+      ]
+    },
+    {
+      "title": "8-K - Philip Morris International Inc. (0001413329) (Filer)",
+      "filer": "Philip Morris International Inc.",
+      "ticker": "PM",
+      "cik": "0001413329",
+      "updated": "2026-06-11T06:04:11-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026042357/0001628280-26-042357-index.htm",
+      "items": [
+        "7.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - AMAZON COM INC (0001018724) (Filer)",
       "filer": "AMAZON COM INC",
