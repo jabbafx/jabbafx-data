@@ -1,6 +1,19 @@
 {
-  "fetched_utc": "2026-06-11T20:15:02.134415Z",
+  "fetched_utc": "2026-06-11T21:15:02.688694Z",
   "filings": [
+    {
+      "title": "8-K - Alphabet Inc. (0001652044) (Filer)",
+      "filer": "Alphabet Inc.",
+      "ticker": "GOOG",
+      "cik": "0001652044",
+      "updated": "2026-06-11T16:17:04-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/0001193125-26-267578-index.htm",
+      "items": [
+        "5.02",
+        "5.07",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - ADOBE INC. (0000796343) (Filer)",
       "filer": "ADOBE INC.",
