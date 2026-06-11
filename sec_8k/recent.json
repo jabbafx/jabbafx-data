@@ -1,5 +1,5 @@
 {
-  "fetched_utc": "2026-06-11T16:15:02.959179Z",
+  "fetched_utc": "2026-06-11T17:15:02.389224Z",
   "filings": [
     {
       "title": "8-K - Broadcom Inc. (0001730168) (Filer)",
@@ -72,20 +72,6 @@
       "link": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/0001193125-26-258667-index.htm",
       "items": [
         "5.02"
-      ]
-    },
-    {
-      "title": "8-K - Alphabet Inc. (0001652044) (Filer)",
-      "filer": "Alphabet Inc.",
-      "ticker": "GOOG",
-      "cik": "0001652044",
-      "updated": "2026-06-04T17:07:39-04:00",
-      "link": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257724/0001193125-26-257724-index.htm",
-      "items": [
-        "1.01",
-        "7.01",
-        "8.01",
-        "9.01"
       ]
     }
   ],
