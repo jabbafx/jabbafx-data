@@ -1,6 +1,43 @@
 {
-  "fetched_utc": "2026-06-11T19:15:02.670574Z",
+  "fetched_utc": "2026-06-11T20:15:02.134415Z",
   "filings": [
+    {
+      "title": "8-K - ADOBE INC. (0000796343) (Filer)",
+      "filer": "ADOBE INC.",
+      "ticker": "ADBE",
+      "cik": "0000796343",
+      "updated": "2026-06-11T16:08:53-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/0000796343-26-000109-index.htm",
+      "items": [
+        "2.02",
+        "5.02",
+        "9.01"
+      ]
+    },
+    {
+      "title": "8-K - Airbnb, Inc. (0001559720) (Filer)",
+      "filer": "Airbnb, Inc.",
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "updated": "2026-06-11T16:05:44-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/0001559720-26-000018-index.htm",
+      "items": [
+        "5.07"
+      ]
+    },
+    {
+      "title": "8-K - CATERPILLAR INC (0000018230) (Filer)",
+      "filer": "CATERPILLAR INC",
+      "ticker": "CAT",
+      "cik": "0000018230",
+      "updated": "2026-06-11T16:05:30-04:00",
+      "link": "https://www.sec.gov/Archives/edgar/data/18230/000110465926072929/0001104659-26-072929-index.htm",
+      "items": [
+        "5.07",
+        "7.01",
+        "9.01"
+      ]
+    },
     {
       "title": "8-K - Broadcom Inc. (0001730168) (Filer)",
       "filer": "Broadcom Inc.",
